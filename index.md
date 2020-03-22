@@ -20,7 +20,7 @@ Modelling Covid-19 is difficult given the number of unknowns in the equation. Th
 
 Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate $$\sigma\$$, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
 
-*[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html]* 
+*[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho* 
 
 ![SEIR model][image1]
 
