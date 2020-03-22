@@ -52,7 +52,7 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 
 *image smaller, on right of list*
 
-![Idaho Health Districts][image2]<!-- .element height="50%" width="50%" -->
+![Idaho Health Districts][image2]{:height="50%" width="50%"}
 
 # Results
 The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho.
