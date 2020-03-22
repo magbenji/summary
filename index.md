@@ -50,6 +50,7 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 6 (South eastern) 300, 26
 * 7 (Eastern) 400, 52
 
+![Idaho Health Districts][image2]
 
 # Results
 The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho.
@@ -76,5 +77,6 @@ A useful strategy could be a (hopefully short) period of strong social distancin
 
 [//]: # (Links below)
 [image1]: ./fig/SEIRmodel.PNG
+[image1]: ./fig/Health-Districts-Exploded_Color.JPG
 [Alt text for image1]: slack snapshot
 
