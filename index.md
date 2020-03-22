@@ -52,7 +52,7 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 
 *want image smaller, on right of list*
 
-<img align="right" width=200 src="./fig/Health-Districts-Exploded_Color.jpg" >
+<img align="right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
 
 # Results
