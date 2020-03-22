@@ -8,18 +8,23 @@ root: .            # Can leave this alone
 # Introduction
 
 Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. As of March 22, 169 countries/regions have reported at least one Covid-19 case; there have been 328,275 confirmed cases of Covid-19 and 14,366 deaths. 
-source https://coronavirus.jhu.edu/map.html
+
+cite source https://coronavirus.jhu.edu/map.html
 
 The United States (US) reported its first case in [location] on [date]. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
-On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help inform the next steps for the  Director of the Dept. of Health and Welfare. On March 20, a team of [number] researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) to discuss the next steps. 
+On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
+On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) [others important to mention, who outside of Idaho was on the call].  
 
+# SEIR
+Modelling Covid-19 is difficult given the number of unknowns in the equation. However, Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite]. The SEIR model 
 
-# Methods
-SEIR
+[image SEIR, currently direct copy paste from https://www.idmod.org/docs/hiv/model-seir.html] 
 
-![Alt text for image1][image1]
+was used to predict the number of cases in Idaho.
+
+![SEIR model][image1]
 
 ## Methods 1
 More paragraph
