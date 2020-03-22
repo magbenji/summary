@@ -26,30 +26,6 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 Three different SEIR models were used to predict the number of cases in Idaho used and examined the following.
 
-### Model A:  (BEN)
-*show as figure*
-* S = susceptible
-* Q = quarantine
-* E = latent (infected but not infectious)
-* I = infectious with symptoms
-* A = infectious without symptoms
-* H = infections, hosptialized
-* R = recovered
-
-*where is deaths in the model?*
-
-Incubation period of 5 days,
-Age (0-14, 15-24, 25-54, 55-65, 65+), city
-
-* demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
-* Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
-
-* spatial structure
-* social distancing
-* school closures by city
-
-
-
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
 
