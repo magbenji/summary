@@ -24,8 +24,6 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
 
-#![SEIR model][image1]
-
 Three different SEIR models were used to predict the number of cases in Idaho used and examined the following parameters
 * demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
 * Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
@@ -54,8 +52,6 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 5 (South Central) 300, 20
 * 6 (South eastern) 300, 26
 * 7 (Eastern) 400, 52
-
-
 
 
 # Results
