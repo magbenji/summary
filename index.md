@@ -52,8 +52,12 @@ The predicted number of cases for Idaho for the next two weeks, if the spread co
 
 The SEIR models suggest that the peak number of infections will be [date range], depending on the measures taken to control Covid-19.
 
+Assumptions of models: 
+
 If no mitigation, = bad, overwhelm ventilators. 
 Earlier start social distancing = less bad
+
+
 
 Currently known infected as initial condition, under-reporting scale.
 Same latency, infectious period, demographics
@@ -63,14 +67,6 @@ Reported, 5x 10x higher
 
 
 
-location peak of infected (time to peak)
-max number of infections (outbreak size)
-number of days out (generation time, recovery times, latent periods)
-
-
-* (2) Jodi’s SEIR model based on other countries 
-* (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
-* (4) Omar’s SEIR model (which is pretty basic) keyed to public health districts and supply levels, which I turned into a Tableau dashboard. 
 
 
 The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho. 
@@ -87,9 +83,11 @@ https://rpubs.com/IrenevanWoerden/587899
 Tableau
 
 ## Suggestions
-False sense of security
+Don't give a false sense of security
 
-Assumptions
+
+
+Age, gender of cases, diagnosis
 
 Ventilators not overwhelmed if mitigate by 50% (schools shut, isolate cases). 
 
