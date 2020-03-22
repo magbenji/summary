@@ -18,7 +18,7 @@ On March 18, universities throughout Idaho (Boise State, Idaho State, and Univer
 On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) [others important to mention, who outside of Idaho was on the call].  
 
 # SEIR
-Modelling Covid-19 is difficult given the number of unknowns in the equation. However, Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite]. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \beta, those who are exposed become infectious at rate $\sigma$, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
+Modelling Covid-19 is difficult given the number of unknowns in the equation. However, Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite]. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate \(\sigma\), and those who are infectious recover at rate \(\gamma\). Once recovered, people can become susceptible again at rate xx.
 
 [image SEIR, currently direct copy paste from https://www.idmod.org/docs/hiv/model-seir.html] 
 
