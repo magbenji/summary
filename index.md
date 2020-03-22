@@ -20,13 +20,14 @@ Modelling Covid-19 is difficult given the number of unknowns in the equation. Th
 
 Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate $$\sigma\$$, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
 
-*[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho* 
+*[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model* 
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
 
 Three different SEIR models were used to predict the number of cases in Idaho used and examined the following.
 
 ### Model A:  (BEN)
+*show as figure*
 * S = susceptible
 * Q = quarantine
 * E = latent (infected but not infectious)
@@ -35,37 +36,10 @@ Three different SEIR models were used to predict the number of cases in Idaho us
 * H = infections, hosptialized
 * R = recovered
 
+*where is deaths in the model?*
+
 Incubation period of 5 days,
 Age (0-14, 15-24, 25-54, 55-65, 65+), city
-
-* popMat = population demographic info (age structure and population size for cities)
-* b = transmission probability per contact (may want to subdivide this
-*     if we assume different shedding rates depending on which infectious 
-*     state we are considering)
-* cMat = contact rate matrix between age groups
-* distMat = network edge weights between cities
-* travelAge = reduction in network edge weight for age class (0 = no edge, 1 = full edge weight)
-* k = nonlinearity transform on edges
-* l = scalar multiple of distMat, defines baseline movement rate between cities, ignoring distance
-* cI = % decrease in contact rate with I class
-* cH = % decrease in contact rate with H class
-* f = external forcing of infection (i.e. incoming infections from nearby states)
-* q = rate of self-quarantine
-* r = rate of leaving quarantine
-* e = 1/latent period
-* pA = probability of being asymptomatic
-* gA = 1/infectious period for asymptomatic class
-* pI = probability of being obviously sick but not in hospital
-* gI = 1/infectious period for symptomatic class
-* gH = 1/infectious period for hospitalized class
-* mI = death rate in symptomatic class
-* mH = death rate in the hospitalized class
-* s = rate of return to susceptibility
-* tStart = time when interventions start
-* tStop = time when interventions stop
-
-
-
 
 * demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
 * Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
