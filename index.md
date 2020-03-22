@@ -77,6 +77,6 @@ A useful strategy could be a (hopefully short) period of strong social distancin
 
 [//]: # (Links below)
 [image1]: ./fig/SEIRmodel.PNG
-[image1]: ./fig/Health-Districts-Exploded_Color.JPG
+[image2]: ./fig/Health-Districts-Exploded_Color.jpg
 [Alt text for image1]: slack snapshot
 
