@@ -42,6 +42,6 @@ Mass testing is also required to accurately parameterize these models. Without i
 
 
 [//]: # (Links below)
-[image1]: ./fig/SEIR model.PNG
+[image1]: ./fig/SEIRmodel.PNG
 [Alt text for image1]: slack snapshot
 
