@@ -24,7 +24,7 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
 
-![SEIR model][image1]
+#![SEIR model][image1]
 
 Three different SEIR models were used to predict the number of cases in Idaho used and examined the following parameters
 * demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
