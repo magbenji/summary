@@ -58,8 +58,8 @@ The below figures show the anticipated number of infected, hospitalized, and dea
 For more information 
 
 *may want to remove names from these links, keep it "idaho covid response"
-https://benridenhour.shinyapps.io/COVID-19_ID/
 
+https://benridenhour.shinyapps.io/COVID-19_ID/
 
 https://rpubs.com/IrenevanWoerden/587899
 
