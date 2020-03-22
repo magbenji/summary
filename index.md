@@ -25,7 +25,7 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 ![SEIR model][image1]
 
 The SEIR model was used to predict the number of cases in Idaho used and examined the following parameters
-* demographic information for cities with at least 3,000 individuals [linked phrase](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
+* demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
 * Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
 
 * spatial structure
