@@ -42,6 +42,9 @@ Three different SEIR models were used to predict the number of cases in Idaho us
 
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
+
+<img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
+
 * 1 (Panhandle) 500, 58
 * 2 (North Central) 300, 12
 * 3 (Southwest) 200, 26
@@ -49,7 +52,6 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 5 (South Central) 300, 20
 * 6 (South eastern) 300, 26
 * 7 (Eastern) 400, 52
-<img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
 
 
@@ -68,7 +70,7 @@ In the figure below the number of cases reported by each US state, since the fir
 The number of Covid-19 cases data for Idaho is shown in red. 
 The predicted number of cases for Idaho for the next two weeks, if the spread continues at the same rate, is shown in blue.
 
-<img style="float: right" width="300" src="./fig/US_Idaho_predicted.PNG">
+<img style="float: right" width="600" src="./fig/US_Idaho_predicted.PNG">
 
 
 *summmary of SIER models here*
