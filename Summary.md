@@ -9,25 +9,35 @@ root: .            # Can leave this alone
 
 Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. As of March 22, 169 countries/regions have reported at least one Covid-19 case; there have been 328,275 confirmed cases of Covid-19 and 14,366 deaths. 
 
-cite source https://coronavirus.jhu.edu/map.html
+*cite source https://coronavirus.jhu.edu/map.html*
 
 The United States (US) reported its first case in [location] on [date]. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
 On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
-On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) [others important to mention, who outside of Idaho was on the call].  
+On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention, who outside of Idaho was on the call]*.  
 
 # SEIR
-Modelling Covid-19 is difficult given the number of unknowns in the equation. However, Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite]. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate \sigma\, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
+Modelling Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher or lower than the parameter in the model, the model will under- or over-estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
-[image SEIR, currently direct copy paste from https://www.idmod.org/docs/hiv/model-seir.html] 
+Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate \sigma\, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
 
+*[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html]* 
 
 ![SEIR model][image1]
 
-The SEIR model was used to predict the number of cases in Idaho.
+The SEIR model was used to predict the number of cases in Idaho examined the following parameters
+* item
+* item
+* item
+* item
+* item
+
+More complex SEIR models, such as specifying social distances for specific populations, such as by age group and location, can be run to obtain more accurate estimates. 
 
 
+ forgot to mention that in the new version of the code, you can specify when social distancing and school closures occur for each city (because this was a feature mentioned on the call on Friday). In other words, you could have schools in Boise closing right now and lasting for some period of time, while some other city might wait to close schools for another month and only close schools for a short period of time. The easiest thing to do is just specify a statewide start and stop time though.
+ 
 
 ## Methods 1
 More paragraph
