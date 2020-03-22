@@ -24,8 +24,10 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 ![SEIR model][image1]
 
-The SEIR model was used to predict the number of cases in Idaho examined the following parameters
-* age
+The SEIR model was used to predict the number of cases in Idaho used and examined the following parameters
+* demographic information for cities with at least 3,000 individuals [linked phrase](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
+* Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
+
 * spatial structure
 * social distancing
 * school closures by city
@@ -38,10 +40,16 @@ The SEIR model was used to predict the number of cases in Idaho examined the fol
 * H = infections, hosptialized
 * R = recovered
 
+# Additional information
+There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
+* 1 (Panhandle) 500, 58
+* 2 (North Central) 300, 12
+* 3 (Southwest) 200, 26
+* 4 (Central) 500, 201
+* 5 (South Central) 300, 20
+* 6 (South eastern) 300, 26
+* 7 (Eastern) 400, 52
 
-
-forgot to mention that in the new version of the code, you can specify when social distancing and school closures occur for each city (because this was a feature mentioned on the call on Friday). In other words, you could have schools in Boise closing right now and lasting for some period of time, while some other city might wait to close schools for another month and only close schools for a short period of time. The easiest thing to do is just specify a statewide start and stop time though.
- 
 
 ## Methods 1
 More paragraph
