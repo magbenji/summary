@@ -9,7 +9,7 @@ root: .            # Can leave this alone
 
 Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 22, 169 countries/regions have reported at least one Covid-19 case; there have approximately 330,000 confirmed cases of Covid-19 and nearly 15,000 deaths. 
 
-The United States (US) reported its first case in [location] on [date]. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
+The United States (US) reported its first case in Washington on January 21. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
 On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
@@ -24,14 +24,9 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
 
-Three different SEIR models were used to predict the number of cases in Idaho used and examined the following parameters
-* demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
-* Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
+Three different SEIR models were used to predict the number of cases in Idaho used and examined the following.
 
-* spatial structure
-* social distancing
-* school closures by city
-
+### Model A:  (BEN)
 * S = susceptible
 * Q = quarantine
 * E = latent (infected but not infectious)
@@ -39,6 +34,47 @@ Three different SEIR models were used to predict the number of cases in Idaho us
 * A = infectious without symptoms
 * H = infections, hosptialized
 * R = recovered
+
+Incubation period of 5 days,
+Age (0-14, 15-24, 25-54, 55-65, 65+), city
+
+* popMat = population demographic info (age structure and population size for cities)
+* b = transmission probability per contact (may want to subdivide this
+*     if we assume different shedding rates depending on which infectious 
+*     state we are considering)
+* cMat = contact rate matrix between age groups
+* distMat = network edge weights between cities
+* travelAge = reduction in network edge weight for age class (0 = no edge, 1 = full edge weight)
+* k = nonlinearity transform on edges
+* l = scalar multiple of distMat, defines baseline movement rate between cities, ignoring distance
+* cI = % decrease in contact rate with I class
+* cH = % decrease in contact rate with H class
+* f = external forcing of infection (i.e. incoming infections from nearby states)
+* q = rate of self-quarantine
+* r = rate of leaving quarantine
+* e = 1/latent period
+* pA = probability of being asymptomatic
+* gA = 1/infectious period for asymptomatic class
+* pI = probability of being obviously sick but not in hospital
+* gI = 1/infectious period for symptomatic class
+* gH = 1/infectious period for hospitalized class
+* mI = death rate in symptomatic class
+* mH = death rate in the hospitalized class
+* s = rate of return to susceptibility
+* tStart = time when interventions start
+* tStop = time when interventions stop
+
+
+
+
+* demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
+* Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
+
+* spatial structure
+* social distancing
+* school closures by city
+
+
 
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
@@ -55,7 +91,6 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 
 
 # Results
-
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
 
@@ -64,6 +99,9 @@ The number of Covid-19 cases data for Idaho is shown in red.
 The predicted number of cases for Idaho for the next two weeks, if the spread continues at the same rate, is shown in blue.
 
 <img style="float: right" width="600" src="./fig/US_Idaho_predicted.PNG">
+
+The SEIR models suggest that the peak number of infections will be [date range], depending on the measures taken to control Covid-19.
+
 
 * (2) Jodi’s SEIR model based on other countries 
 * (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
@@ -80,6 +118,8 @@ For more information see the following dashboards:
 https://benridenhour.shinyapps.io/COVID-19_ID/
 
 https://rpubs.com/IrenevanWoerden/587899
+
+Tableau
 
 ## Suggestions
 The death rate will increase once the ventilators are all in use. Social distance measures of level [6; xxx] is projected to keep the number of people needing ventilators at or below the number of ventilators available.
