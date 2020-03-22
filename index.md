@@ -50,7 +50,9 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 6 (South eastern) 300, 26
 * 7 (Eastern) 400, 52
 
-![Idaho Health Districts][image2]
+*image smaller, on right of list*
+
+![Idaho Health Districts][image2]<!-- .element height="50%" width="50%" -->
 
 # Results
 The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho.
@@ -71,6 +73,7 @@ The limited number of tests being conducted, and the delay in testing results be
  
 A useful strategy could be a (hopefully short) period of strong social distancing while mass testing is ramped up to large levels, followed by relaxation of social distancing measures (which hurt the economy) once we find out where we are.
 
+I should say that the testing message should include PCR tests immediately, but also serology when they become widely available.  If people knew they were likely immune, they could get back to normal economic activity.
 
 [Link to page 2](page2)
 
