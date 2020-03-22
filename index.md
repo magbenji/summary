@@ -7,7 +7,10 @@ root: .            # Can leave this alone
     
 # Introduction
 
-Here's an introduction paragraph.
+Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on [Date]. As of March 22, [number] countries have reported at least one Covid-19 case, and there have been [number] deaths. [differences with prior pandemics, hospitalization and death rates]
+The United States (US) reported its first case in [location] on [date]. On [date], when Idaho reported its first case, a total of [number] cases in the US, and [number] cases globally had been reported. 
+On [date] universities throughout Idaho (Boise State, Idaho State, University of Idaho) were asked to identify a team of researchers to provide a report that would help inform [who] next steps. On [date] a team of [number] researchers met with [TJ, Martijn].
+
 
 # Methods
 Paragraph
