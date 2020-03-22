@@ -22,6 +22,8 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 *[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho* 
 
+<img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
+
 ![SEIR model][image1]
 
 Three different SEIR models were used to predict the number of cases in Idaho used and examined the following parameters
