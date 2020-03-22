@@ -55,12 +55,7 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 
 
 # Results
-* (1) Irene’s linear model 
-* (2) Jodi’s SEIR model based on other countries 
-* (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
-* (4) Omar’s SEIR model (which is pretty basic) keyed to public health districts and supply levels, which I turned into a Tableau dashboard. 
- 
- 
+
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
 
@@ -70,18 +65,15 @@ The predicted number of cases for Idaho for the next two weeks, if the spread co
 
 <img style="float: right" width="600" src="./fig/US_Idaho_predicted.PNG">
 
-
-*summmary of SIER models here*
-
-
-
-
+* (2) Jodi’s SEIR model based on other countries 
+* (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
+* (4) Omar’s SEIR model (which is pretty basic) keyed to public health districts and supply levels, which I turned into a Tableau dashboard. 
 
 
 The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho. 
 
 
-For more information 
+For more information see the following dashboards:
 
 *may want to remove names from these links, keep it "idaho covid response"*
 
