@@ -16,12 +16,7 @@ On March 18, universities throughout Idaho (Boise State, Idaho State, and Univer
 On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention, who outside of Idaho was on the call]*.  
 
 # SEIR
-* (1) Irene’s linear model 
-* (2) Jodi’s SEIR model based on other countries 
-* (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
-* (4) Omar’s SEIR model (which is pretty basic) keyed to public health districts and supply levels, which I turned into a Tableau dashboard. 
- 
- Modelling Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher or lower than the parameter in the model, the model will under- or over-estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
+Modelling Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher or lower than the parameter in the model, the model will under- or over-estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
 Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate $$\sigma\$$, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
 
@@ -47,7 +42,6 @@ Three different SEIR models were used to predict the number of cases in Idaho us
 
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
-<img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 * 1 (Panhandle) 500, 58
 * 2 (North Central) 300, 12
 * 3 (Southwest) 200, 26
@@ -55,20 +49,29 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 5 (South Central) 300, 20
 * 6 (South eastern) 300, 26
 * 7 (Eastern) 400, 52
+<img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
 
 
 
 # Results
+* (1) Irene’s linear model 
+* (2) Jodi’s SEIR model based on other countries 
+* (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
+* (4) Omar’s SEIR model (which is pretty basic) keyed to public health districts and supply levels, which I turned into a Tableau dashboard. 
+ 
+ 
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
-*summmary of SIER models here*
 
 In the figure below the number of cases reported by each US state, since the first day with cases reported, is shown. 
 The number of Covid-19 cases data for Idaho is shown in red. 
 The predicted number of cases for Idaho for the next two weeks, if the spread continues at the same rate, is shown in blue.
 
-![Covid-19 cases reported in the US][image3]
+<img style="float: right" width="300" src="./fig/US_Idaho_predicted.PNG">
+
+
+*summmary of SIER models here*
 
 
 
