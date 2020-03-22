@@ -7,9 +7,7 @@ root: .            # Can leave this alone
     
 # Introduction
 
-Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. As of March 22, 169 countries/regions have reported at least one Covid-19 case; there have been 328,275 confirmed cases of Covid-19 and 14,366 deaths. 
-
-*cite source https://coronavirus.jhu.edu/map.html*
+Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [linked phrase](https://coronavirus.jhu.edu/map.htm) as of March 22, 169 countries/regions have reported at least one Covid-19 case; there have been 328,275 confirmed cases of Covid-19 and 14,366 deaths. 
 
 The United States (US) reported its first case in [location] on [date]. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
@@ -27,16 +25,22 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 ![SEIR model][image1]
 
 The SEIR model was used to predict the number of cases in Idaho examined the following parameters
-* item
-* item
-* item
-* item
-* item
+* age
+* spatial structure
+* social distancing
+* school closures by city
 
-More complex SEIR models, such as specifying social distances for specific populations, such as by age group and location, can be run to obtain more accurate estimates. 
+* S = susceptible
+* Q = quarantine
+* E = latent (infected but not infectious)
+* I = infectious with symptoms
+* A = infectious without symptoms
+* H = infections, hosptialized
+* R = recovered
 
 
- forgot to mention that in the new version of the code, you can specify when social distancing and school closures occur for each city (because this was a feature mentioned on the call on Friday). In other words, you could have schools in Boise closing right now and lasting for some period of time, while some other city might wait to close schools for another month and only close schools for a short period of time. The easiest thing to do is just specify a statewide start and stop time though.
+
+forgot to mention that in the new version of the code, you can specify when social distancing and school closures occur for each city (because this was a feature mentioned on the call on Friday). In other words, you could have schools in Boise closing right now and lasting for some period of time, while some other city might wait to close schools for another month and only close schools for a short period of time. The easiest thing to do is just specify a statewide start and stop time though.
  
 
 ## Methods 1
