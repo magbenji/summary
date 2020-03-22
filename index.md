@@ -16,7 +16,12 @@ On March 18, universities throughout Idaho (Boise State, Idaho State, and Univer
 On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention, who outside of Idaho was on the call]*.  
 
 # SEIR
-Modelling Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher or lower than the parameter in the model, the model will under- or over-estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
+* (1) Irene’s linear model 
+* (2) Jodi’s SEIR model based on other countries 
+* (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
+* (4) Omar’s SEIR model (which is pretty basic) keyed to public health districts and supply levels, which I turned into a Tableau dashboard. 
+ 
+ Modelling Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher or lower than the parameter in the model, the model will under- or over-estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
 Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate $$\sigma\$$, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
 
@@ -24,7 +29,7 @@ Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully
 
 ![SEIR model][image1]
 
-The SEIR model was used to predict the number of cases in Idaho used and examined the following parameters
+Three different SEIR models were used to predict the number of cases in Idaho used and examined the following parameters
 * demographic information for cities with at least 3,000 individuals [sourced from wikipedia](https://en.wikipedia.org/wiki/List_of_cities_in_Idaho)
 * Contact rates by age group (0-14, 15-24, 25-54, 55-64, and over 65)
 
@@ -56,7 +61,22 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 
 
 # Results
-The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho.
+The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
+We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
+*summmary of SIER models here*
+
+In the figure below the number of cases reported by each US state, since the first day with cases reported, is shown. 
+The number of Covid-19 cases data for Idaho is shown in red. 
+The predicted number of cases for Idaho for the next two weeks, if the spread continues at the same rate, is shown in blue.
+
+![Covid-19 cases reported in the US][image3]
+
+
+
+
+
+
+The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho. 
 
 
 For more information 
@@ -82,5 +102,6 @@ I should say that the testing message should include PCR tests immediately, but 
 [//]: # (Links below)
 [image1]: ./fig/SEIRmodel.PNG
 [image2]: ./fig/Health-Districts-Exploded_Color.jpg
+[image3]: ./fig/US_Idaho_predicted.PNG
 [Alt text for image1]: slack snapshot
 
