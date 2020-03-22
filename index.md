@@ -42,6 +42,7 @@ The SEIR model was used to predict the number of cases in Idaho used and examine
 
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
+<img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 * 1 (Panhandle) 500, 58
 * 2 (North Central) 300, 12
 * 3 (Southwest) 200, 26
@@ -52,7 +53,6 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 
 *want image smaller, on right of list*
 
-<img align="right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
 
 # Results
