@@ -40,7 +40,7 @@ The SEIR model was used to predict the number of cases in Idaho used and examine
 * H = infections, hosptialized
 * R = recovered
 
-# Additional information
+## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
 * 1 (Panhandle) 500, 58
 * 2 (North Central) 300, 12
@@ -51,16 +51,24 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 7 (Eastern) 400, 52
 
 
-## Methods 1
-More paragraph
+# Results
+The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho.
 
-## Results
+
+For more information 
+
+*may want to remove names from these links, keep it "idaho covid response"
+https://benridenhour.shinyapps.io/COVID-19_ID/
+
+
+https://rpubs.com/IrenevanWoerden/587899
 
 ## Suggestions
+The death rate will increase once the ventilators are all in use. Social distance measures of level [6; xxx] is projected to keep the number of people needing ventilators at or below the number of ventilators available.
 
-I believe that a useful message for decision makers is that mass testing has the potential to help prevent spread and mitigate economic impacts.  In many communities in Idaho, the spread is sufficiently low that mass testing plus contact tracing has the potential to quelch local spread.  Without mass testing, community spread is inevitable and has devastating economic and health infrastructure consequences.
+The limited number of tests being conducted, and the delay in testing results becoming available, significantly hamper modeling efforts as it is difficult to accurately parameterize these models. There is currently a wide range of uncertainty in the model parameters. Mass testing has the potential to help prevent the spread of Covid-19, which can help mitigate the economic impacts. In many communities in Idaho, the spread is sufficiently low that mass testing plus contact tracing has the potential to quelch local spread. Without mass testing, community spread is inevitable and has devastating economic and health infrastructure consequences.
  
-Mass testing is also required to accurately parameterize these models. Without it, there is a huge amount of uncertainty.  A useful strategy could be a (hopefully short) period of strong social distancing while mass testing is ramped up to large levels, followed by relaxation of social distancing measures (which hurt the economy) once we find out where we are.
+A useful strategy could be a (hopefully short) period of strong social distancing while mass testing is ramped up to large levels, followed by relaxation of social distancing measures (which hurt the economy) once we find out where we are.
 
 
 [Link to page 2](page2)
