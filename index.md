@@ -76,6 +76,21 @@ The predicted number of cases for Idaho for the next two weeks, if the spread co
 
 The SEIR models suggest that the peak number of infections will be [date range], depending on the measures taken to control Covid-19.
 
+If no mitigation, = bad, overwhelm ventilators. 
+Earlier start social distancing = less bad
+
+Currently known infected as initial condition, under-reporting scale.
+Same latency, infectious period, demographics
+Reporting best case scenario
+
+Reported, 5x 10x higher
+
+
+
+location peak of infected (time to peak)
+max number of infections (outbreak size)
+number of days out (generation time, recovery times, latent periods)
+
 
 * (2) Jodi’s SEIR model based on other countries 
 * (3) Ben’s city specific model with transmission between cities and a lot of tweakable parameters in a Shiny dashboard 
@@ -96,6 +111,14 @@ https://rpubs.com/IrenevanWoerden/587899
 Tableau
 
 ## Suggestions
+False sense of security
+
+Assumptions
+
+Ventilators not overwhelmed if mitigate by 50% (schools shut, isolate cases). 
+
+Places that have it under control, have done a lot of testing.
+
 The death rate will increase once the ventilators are all in use. Social distance measures of level [6; xxx] is projected to keep the number of people needing ventilators at or below the number of ventilators available.
 
 The limited number of tests being conducted, and the delay in testing results becoming available, significantly hamper modeling efforts as it is difficult to accurately parameterize these models. There is currently a wide range of uncertainty in the model parameters. Mass testing has the potential to help prevent the spread of Covid-19, which can help mitigate the economic impacts. In many communities in Idaho, the spread is sufficiently low that mass testing plus contact tracing has the potential to quelch local spread. Without mass testing, community spread is inevitable and has devastating economic and health infrastructure consequences.
