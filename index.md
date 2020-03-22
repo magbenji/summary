@@ -7,11 +7,13 @@ root: .            # Can leave this alone
     
 # Introduction
 
-Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on [Date]. As of March 22, [number] countries have reported at least one Covid-19 case, and there have been [number] deaths. [differences with prior pandemics, hospitalization and death rates]
+Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. As of March 22, 169 countries/regions have reported at least one Covid-19 case; there have been 328,275 confirmed cases of Covid-19 and 14,366 deaths. 
+source https://coronavirus.jhu.edu/map.html
 
-The United States (US) reported its first case in [location] on [date]. On [date], when Idaho reported its first case, a total of [number] cases in the US, and [number] cases globally had been reported. 
+The United States (US) reported its first case in [location] on [date]. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
-On [date] universities throughout Idaho (Boise State, Idaho State, University of Idaho) were asked to identify a team of researchers to provide a report that would help inform [who] next steps. On [date] a team of [number] researchers met with [TJ, Martijn].
+On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help inform the next steps for the  Director of the Dept. of Health and Welfare. On March 20, a team of [number] researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) to discuss the next steps. 
+
 
 
 # Methods
