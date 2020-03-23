@@ -119,6 +119,8 @@ The number of cases reported in Idaho likely has a delay, such that it may take 
 
 So far, the places that have controlled Covid-19 have implemented wide-scale testing and tracing measures. In our opinion, mass testing has the potential to help prevent the spread of Covid-19, which can help mitigate the economic impacts. This is because in many communities in Idaho the spread is sufficiently low that mass testing in combination with contact tracing has the potential to quelch local spread. We believe that without mass testing, community spread is inevitable and has devastating economic and health infrastructure consequences.
 
+The first cases of Covid-19 in Idaho were observed after other states were infected. By tracking the number of cases reported by state we may be able to see how well different intervention strategies have worked elsewhere in the US.
+
 One suggestion that balances the demands of economics and health is to have a (hopefully short) period of strong social distancing while mass testing is ramped up to large levels. This would allow health workers to determine where Covid-19 is, and ensure infected cases were isolated. This period would allow researchers and healthworkers to determine how widespread and severe Covid-19 is in Idaho. 
 After this period of strong social distancing a period of relaxed social distancing measures could be implemented, ramping up to strong social distancing as needed (if the number of cases was at risk of exceeding hospital demand).
 
