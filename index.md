@@ -39,7 +39,7 @@ Figure 2 illustrates just how important knowing how Covid-19 spreads in Idaho is
 The figure shows how dramatically the number of predicted infections in Idaho changes depending on which countries data we use to obtain the initial estimates. 
 
 * asked Jodi to add in china and italy to figure, change y axis to be in 1000s*
-<img style="float: right" width="100%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
+<img style="float: right" width="60%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
 <b>Figure 2</b> Differences in predictions for Idaho based on initial assumptions </div>
 <br>
 
@@ -95,12 +95,6 @@ If there is no mitagation we anticpate that the ventilators wil be overwhelmed [
 
 
 *image*
-
-Earlier start social distancing = less bad
-Depending on the measures taken to control Covid-19.
-*image*
-
-
 
 
 ## Conclusions
