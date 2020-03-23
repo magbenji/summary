@@ -37,9 +37,10 @@ Model C: *brief summary*
 
 Model D: *brief summary*
 
-*[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model* 
 
-<img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
+<img style="float: center" width="100%" src="./fig/SEIRmodel.PNG">
+<b>Figure 1</b> [image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model</div>
+<br>
 
 One concern is that the number of cases reported is an under-estimate. This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people are actually infected - and contagious.
 We anticipate that the number of cases on https://coronavirus.idaho.gov/ is an underestimate as not everyone is likely to present for testing (especially those who are asymptomatic), and it is also our understanding that not everyone who presents with likely Covid-19 will be tested. Given this potential under-estimate in the number of cases three different models were run.
@@ -51,27 +52,39 @@ Model 2: The model used five times the number of Covid-19 cases than were used i
 Model 3: The model used ten times the number of Covid-19 cases than were used in Model 1, resulting in a total of 480 cases in Idaho.
 
 ## Additional information
+<div align="center">
+<img width="35%" src="./fig/Health-Districts-Exploded_Color.jpg"> 
+<br>
+<b>Figure 2</b> Idaho Health districts
+</div>
+<br>
+
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
 
-*to do - put image to right of list - label as Figure 1 (or Figure 2 if put in a SEIR figure)*
-<img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
-* 1 (Panhandle) 500, 58
-* 2 (North Central) 300, 12
-* 3 (Southwest) 200, 26
-* 4 (Central) 500, 201
-* 5 (South Central) 300, 20
-* 6 (South eastern) 300, 26
-* 7 (Eastern) 400, 52
+<ol style="left">
+<li> (Panhandle) 500, 58    </li>
+<li> (North Central) 300, 12</li>
+<li> (Southwest) 200, 26</li>
+<li> (Central) 500, 201</li>
+<li> (South Central) 300, 20</li>
+<li> (South eastern) 300, 26</li>
+<li> (Eastern) 400, 52</li>
+</ol>
 
+
+<br>
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
 Figure 3 shows the number of cases reported by each US state, since the first day with cases reported. 
 The number of Covid-19 cases data for Idaho is shown in red, and the predicted number of cases for Idaho for the next two weeks (if the spread continues at the same rate) is shown in blue.
 
-*label figure 3*
-<img width="600" src="./fig/US_Idaho_predicted.PNG">
+<div align = "center"> <img width="80%" src="./fig/US_Idaho_predicted.PNG">
+<br>
+<b>Figure</b> Label for above figure</div>
+<br>
+
 
 Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
 This suggests that if no mitigation is done the the peak number of infections will be [date range].
