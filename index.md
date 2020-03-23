@@ -88,32 +88,24 @@ Depending on the measures taken to control Covid-19.
 
 
 
-For more information see the following dashboards:
-
-*may want to remove names from these links, keep it "idaho covid response"*
-
-https://benridenhour.shinyapps.io/COVID-19_ID/
-
-https://rpubs.com/IrenevanWoerden/587899
-
-Tableau
-
 ## Suggestions
-Don't give a false sense of security
-
-Age, gender of cases, diagnosis
-
-Ventilators not overwhelmed if mitigate by 50% (schools shut, isolate cases). 
-
-Places that have it under control, have done a lot of testing.
-
-The death rate will increase once the ventilators are all in use. Social distance measures of level [6; xxx] is projected to keep the number of people needing ventilators at or below the number of ventilators available.
-
-The limited number of tests being conducted, and the delay in testing results becoming available, significantly hamper modeling efforts as it is difficult to accurately parameterize these models. There is currently a wide range of uncertainty in the model parameters. Mass testing has the potential to help prevent the spread of Covid-19, which can help mitigate the economic impacts. In many communities in Idaho, the spread is sufficiently low that mass testing plus contact tracing has the potential to quelch local spread. Without mass testing, community spread is inevitable and has devastating economic and health infrastructure consequences.
+The limited number of tests being conducted, and the delay in testing results becoming available, is significantly hampering modeling efforts. It is difficult to accurately model Covid-19 in Idaho given the wide range of uncertainty in the model parameters. So far, the places that have controlled Covid-19 have implemented wide-scale testing and tracing measures. In our opinion, mass testing has the potential to help prevent the spread of Covid-19, which can help mitigate the economic impacts. This is because in many communities in Idaho the spread is sufficiently low that mass testing in combination with contact tracing has the potential to quelch local spread. We believe that without mass testing, community spread is inevitable and has devastating economic and health infrastructure consequences.
  
-A useful strategy could be a (hopefully short) period of strong social distancing while mass testing is ramped up to large levels, followed by relaxation of social distancing measures (which hurt the economy) once we find out where we are.
+Our predictions suggest that ventilators will be overwhelmed if no social distancing effort are put in place. Once the ventilators are overwhelmed the death rate will increase. If Idaho slows the spread by 50% (such as by shutting schools and isolate Covid-19 cases) then ventilators will be available for the majority of the time. If Idaho slows the spread by 60% (such as by shutting schools, isolating Covid-19 cases, and *xxxx*) then ventilators would be overwhelmed *how much*.
 
-I should say that the testing message should include PCR tests immediately, but also serology when they become widely available.  If people knew they were likely immune, they could get back to normal economic activity.
+One suggestion that balances the demands of economics and health is to have a (hopefully short) period of strong social distancing while mass testing is ramped up to large levels. This would allow health workers to determine where Covid-19 is, and ensure infected cases were isolated. This period would allow researchers and healthworkers to determine how widespread and severe Covid-19 is in Idaho. 
+After this period of strong social distancing a period of relaxed social distancing measures could be implemented, ramping up to strong social distancing as needed (if the number of cases was at risk of exceeding hospital demand).
+
+If people who are likely immune (based on prior exposure or serology) are not infections, there is no reason for these people to not  get back to normal economic activity. PCR tests and serology (once available) will indicate how many people are likely immune from this current Covid-19 virus. 
+
+Providing more detailed information on who is infected by Covid-19 (e.g., age, gender, comorbidities) will help future predictions be more accurate.
+
+
+## Additional information
+For more information specific to Idaho, see the following websites:
+A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/587899
+A dashboard with multiple parameters that https://benridenhour.shinyapps.io/COVID-19_ID/
+A dashboard with multiple parameters that xxx https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes
 
 
 [//]: # (Links below)
