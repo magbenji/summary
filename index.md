@@ -7,9 +7,7 @@ root: .            # Can leave this alone
     
 # Introduction
 
-Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 22, 169 countries/regions have reported at least one Covid-19 case; there have approximately 330,000 confirmed cases of Covid-19 and nearly 15,000 deaths. 
-
-The United States (US) reported its first case in Washington on January 21. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
+Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 22, 169 countries/regions have reported at least one Covid-19 case; there have approximately 330,000 confirmed cases of Covid-19 and nearly 15,000 deaths. The United States (US) reported its first case in Washington on January 21. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
 On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
@@ -58,7 +56,7 @@ In the figure below the number of cases reported by each US state, since the fir
 The number of Covid-19 cases data for Idaho is shown in red. 
 The predicted number of cases for Idaho for the next two weeks, if the spread continues at the same rate, is shown in blue.
 
-<img style="float: right" width="600" src="./fig/US_Idaho_predicted.PNG">
+<img width="600" src="./fig/US_Idaho_predicted.PNG">
 
 The SEIR models suggest that the peak number of infections will be [date range], depending on the measures taken to control Covid-19.
 
