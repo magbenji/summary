@@ -48,11 +48,11 @@ We anticipate that there are roughly 2,500 Hospital Available Beds for Emergenci
 One concern is that the number of cases reported is an under-estimate. This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people are actually infected - and contagious.
 We anticipate that the number of cases on https://coronavirus.idaho.gov/ is an underestimate as not everyone is likely to present for testing (especially those who are asymptomatic), and it is also our understanding that not everyone who presents with likely Covid-19 will be tested. Given this potential under-estimate in the number of cases three different models were run.
 
-Model 1: The model uses the number of offically recorded Covid-19 cases as reported on Mar 22, 2020. As six of the seven Public Health Districts were reporting a case of Covid-19, for simplicity the seventh Public Health District (North Central) was set to have one case as well. This resulted in a total of 48 cases in Idaho.
+**Model 1**: The model uses the number of offically recorded Covid-19 cases as reported on Mar 22, 2020. As six of the seven Public Health Districts were reporting a case of Covid-19, for simplicity the seventh Public Health District (North Central) was set to have one case as well. This resulted in a total of 48 cases in Idaho.
 
-Model 2: The model used five times the number of Covid-19 cases than were used in Model 1, resulting in a total of 240 cases in Idaho.
+**Model 2**: The model used five times the number of Covid-19 cases than were used in Model 1, resulting in a total of 240 cases in Idaho.
 
-Model 3: The model used ten times the number of Covid-19 cases than were used in Model 1, resulting in a total of 480 cases in Idaho.
+**Model 3**: The model used ten times the number of Covid-19 cases than were used in Model 1, resulting in a total of 480 cases in Idaho.
 
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
@@ -68,7 +68,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 **Model 1**
 -Time to peak:  roughly 15 days, August 16-22
 -At peak:  
-      - etimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
+      - estimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
       - estimate 2: 239,000 infected
 -Final outbreak size:  80.6%
 -Total deaths: 400 (~315 deaths in 65+, ~70 in 55-64, and ~15 in 25-54)
@@ -76,7 +76,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 **Model 2**
 -Time to peak: July 22,
 -At peak:  
-      - etimate 1: 
+       - estimate 1: 
        - estimate 2: 239,000 infected
 -Final outbreak size: 
 -Total deaths: 
@@ -84,7 +84,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 **Model 3**
 -Time to peak: July 10
 -At peak:  
-      - etimate 1: 
+      - estimate 1: 
       - etimate 2: 239,000 infected
 -Final outbreak size: 
 -Total deaths: 
