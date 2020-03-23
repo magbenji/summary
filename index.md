@@ -28,9 +28,9 @@ These differences in predictions are expected given the differences in the model
 
 *Assumptions of models constent*
 Italy infection rate
-# (1) When do infections peak?
-# (2) What are the total counts of infections at the peak?
-# (3) What proportion of population is infected?
+ (1) When do infections peak?
+ (2) What are the total counts of infections at the peak?
+ (3) What proportion of population is infected?
 
 Infections peak August 16th, at 239,000 (47 initial infections)
 Infections peak July 22, at about the same total cases (47 * 5 initial infections)
