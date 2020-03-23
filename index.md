@@ -114,8 +114,6 @@ A useful strategy could be a (hopefully short) period of strong social distancin
 
 I should say that the testing message should include PCR tests immediately, but also serology when they become widely available.  If people knew they were likely immune, they could get back to normal economic activity.
 
-[Link to page 2](page2)
-
 
 [//]: # (Links below)
 [image1]: ./fig/SEIRmodel.PNG
