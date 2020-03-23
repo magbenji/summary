@@ -29,7 +29,8 @@ These differences in predictions are expected given the differences in the model
 
 All of the models assumed the infection rate was similar to that observed in Italy. The infections rates for Italy were used as this is the most complete dataset outside of Asia. We anticipate that the infection rates in Idaho will be more similar to what has been observed in Europe than in Asia given the differences between the continents. Figure x illustrates how important knowing the parameters of the model are, the number of predicted infections in Idaho changes significantly depending on which countries data we use to obtain the initial estimates. 
 
-<img style="float: right" width="30%" src="./fig/Projection_Belgium_vs_Denmark.JPG">
+* ask Jodi to add in china and italy to figure, change y axis to be in 1000s*
+<img style="float: right" width="70%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
 <b>Figure 1</b> Differences in model predictions</div>
 <br>
 
