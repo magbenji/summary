@@ -15,16 +15,21 @@ On March 18, universities throughout Idaho (Boise State, Idaho State, and Univer
 
 On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention, who outside of Idaho was on the call]*.  
 
-# Modelling
-Modelling Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher or lower than the parameter in the model, the model will under- or over-estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
+# Predictions
+Predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
-Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. The simplest SEIR model starts with a number of people susceptible to an illness. People who are susceptible become exposed at rate \(\beta\), those who are exposed become infectious at rate $$\sigma\$$, and those who are infectious recover at rate $\gamma$. Once recovered, people can become susceptible again at rate xx.
+Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. 
+The simplest SEIR model starts with a number of people susceptible to an illness. 
+People who are susceptible become exposed, those who are exposed become infectious, and those who are infectious recover or die. 
+*Once recovered, people can become susceptible again - is this true for the models you are running?*.
+The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
+
+A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
+These differences in predictions are expected given the differences in the model paramters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19.
 
 *[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model* 
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
-
-Three different SEIR models were used to predict the number of cases in Idaho used and examined the following.
 
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
