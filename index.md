@@ -7,7 +7,7 @@ root: .            # Can leave this alone
     
 # Introduction
 
-Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 22, 169 countries/regions have reported at least one Covid-19 case; there have approximately 330,000 confirmed cases of Covid-19 and nearly 15,000 deaths. The United States (US) reported its first case in Washington on January 21. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
+Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 23, 168 countries/regions have reported at least one Covid-19 case; there have approximately 400,000 confirmed cases of Covid-19 and 16,000 deaths. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
 On March 18, universities throughout Idaho (Boise State University, Idaho State University, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
@@ -113,7 +113,7 @@ The number of cases reported in Idaho likely has a delay, such that it may take 
 ## Additional information
 For more information specific to Idaho, see the following websites:
 
-A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/587899
+A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/588295
 
 A dashboard with multiple parameters that https://benridenhour.shinyapps.io/COVID-19_ID/
 
