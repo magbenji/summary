@@ -66,28 +66,28 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <br> 
 
 **Model 1**
--Time to peak:  roughly 15 days, August 16-22
--At peak:  
+- Time to peak:  roughly 15 days, August 16-22
+- At peak:  
       - estimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
       - estimate 2: 239,000 infected
--Final outbreak size:  80.6%
--Total deaths: 400 (~315 deaths in 65+, ~70 in 55-64, and ~15 in 25-54)
+- Final outbreak size:  80.6%
+- Total deaths: 400 (~315 deaths in 65+, ~70 in 55-64, and ~15 in 25-54)
 
 **Model 2**
--Time to peak: July 22,
--At peak:  
+- Time to peak: July 22,
+- At peak:  
        - estimate 1: 
        - estimate 2: 239,000 infected
--Final outbreak size: 
--Total deaths: 
+- Final outbreak size: 
+- Total deaths: 
 
 **Model 3**
--Time to peak: July 10
--At peak:  
+- Time to peak: July 10
+- At peak:  
       - estimate 1: 
       - etimate 2: 239,000 infected
--Final outbreak size: 
--Total deaths: 
+- Final outbreak size: 
+- Total deaths: 
 
 Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
 This suggests that if no mitigation is done the the peak number of infections will be [date range].
