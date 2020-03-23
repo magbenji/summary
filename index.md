@@ -60,14 +60,6 @@ Model 2: The model used five times the number of Covid-19 cases than were used i
 
 Model 3: The model used ten times the number of Covid-19 cases than were used in Model 1, resulting in a total of 480 cases in Idaho.
 
-<div align="center">
-<img width="35%" src="./fig/Health-Districts-Exploded_Color.jpg"> 
-<br>
-<b>Figure 2</b> Idaho Health districts
-</div>
-<br>
-
-
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
@@ -76,7 +68,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 
 <div align = "center"> <img width="80%" src="./fig/US_Idaho_predicted.PNG">
 <br>
-<b>Figure</b> Label for above figure</div>
+<b>Figure 2 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br>
 
 
