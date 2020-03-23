@@ -77,7 +77,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <div align = "center"> <img width="60%" src="./fig/US_Idaho_predicted.PNG">
 <br>
 <b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
-<br>
+<br> 
 
 
 *Infections peak August 16th, at 239,000 (47 initial infections)*
