@@ -68,7 +68,7 @@ We anticpate that the number of Covid-19 cases in Idaho will follow this exponen
 Figure 3 shows the number of cases reported by each US state, since the first day with cases reported. 
 The number of Covid-19 cases data for Idaho is shown in red, and the predicted number of cases for Idaho for the next two weeks (if the spread continues at the same rate) is shown in blue.
 
-<div align = "center"> <img width="80%" src="./fig/US_Idaho_predicted.PNG">
+<div align = "center"> <img width="60%" src="./fig/US_Idaho_predicted.PNG">
 <br>
 <b>Figure 2 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br>
@@ -103,8 +103,11 @@ Providing more detailed information on who is infected by Covid-19 (e.g., age, g
 
 ## Additional information
 For more information specific to Idaho, see the following websites:
+
 A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/587899
+
 A dashboard with multiple parameters that https://benridenhour.shinyapps.io/COVID-19_ID/
+
 A dashboard with multiple parameters that xxx https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes
 
 
