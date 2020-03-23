@@ -47,7 +47,7 @@ Model C: *brief summary*
 Model D: *brief summary*
 
 
-<img style="float: right" width="100%" src="./fig/SEIR.PNG">
+<img style="float: right" width="50%" src="./fig/SEIR.PNG">
 <b>Figure 1</b> [simplistic SEIR modell</div>
 <br>
 
