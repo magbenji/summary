@@ -37,10 +37,11 @@ The infections rates for Italy were used as this is the most complete dataset ou
 Figure 2 illustrates just how important knowing how Covid-19 spreads in Idaho is. 
 The figure shows how dramatically the number of predicted infections in Idaho changes depending on which countries data we use to obtain the initial estimates. 
 
-* asked Jodi to add in china and italy to figure, change y axis to be in 1000s*
-<img style="float: right" width="60%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
-<b>Figure 2</b> Differences in predictions for Idaho based on initial assumptions </div>
+*asked Jodi to add in china and italy to figure, change y axis to be in 1000s*
+<div align = "center"> <img width="80%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
 <br>
+<b>Figure 3 </b> Differences in predictions for Idaho based on initial assumptions</div>
+<br> 
 
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
 
