@@ -28,8 +28,7 @@ This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model 
 <b>Figure 1</b> summary of model used in predictions</div>
 <br>
 
-A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
-These differences in predictions are expected given the differences in the model parameters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
+A large number of models were run, each with slightly different model parameters. As each of the models is slightly different the predictions for each of the models are also different. At this point it is unclear which model is the most realistic. The models will be more accurate once more testing is implemented, or when we death data starts to be available.
 
 All of the models assumed the infection rate was similar to that observed in Italy. 
 This was a difficult choice to make as different countries have had different infection rates, using a different countries infection rate could significantly alter the predictions we have for Idaho.
