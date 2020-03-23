@@ -24,6 +24,10 @@ The rate at which people go from being susceptible to exposed to infected to rec
 This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cites please]. 
 *Once recovered, people can become susceptible again - is this true for the models you are running?*.
 
+<img style="float: right" width="30%" src="./fig/SEIR.PNG">
+<b>Figure 1</b> summary of model used in predictions</div>
+<br>
+
 A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
 These differences in predictions are expected given the differences in the model parameters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
 
@@ -31,12 +35,12 @@ All of the models assumed the infection rate was similar to that observed in Ita
 This was a difficult choice to make as different countries have had different infection rates, using a different countries infection rate could significantly alter the predictions we have for Idaho.
 The infections rates for Italy were used as this is the most complete dataset outside of Asia, and we anticipate that the infection rates in Idaho will be more similar to what has been observed in Europe than in Asia given the differences between the continents. 
 
-Figure 1 illustrates just how important knowing how Covid-19 spreads in Idaho is. 
+Figure 2 illustrates just how important knowing how Covid-19 spreads in Idaho is. 
 The figure shows how dramatically the number of predicted infections in Idaho changes depending on which countries data we use to obtain the initial estimates. 
 
 * asked Jodi to add in china and italy to figure, change y axis to be in 1000s*
 <img style="float: right" width="100%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
-<b>Figure 1</b> Differences in predictions for Idaho based on initial assumptions </div>
+<b>Figure 2</b> Differences in predictions for Idaho based on initial assumptions </div>
 <br>
 
 
@@ -51,9 +55,7 @@ Model C: *brief summary*
 Model D: *brief summary*
 
 
-<img style="float: right" width="30%" src="./fig/SEIR.PNG">
-<b>Figure 2</b> simplistic SEIR model</div>
-<br>
+
 
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
 
