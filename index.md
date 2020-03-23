@@ -47,8 +47,8 @@ Model C: *brief summary*
 Model D: *brief summary*
 
 
-<img style="float: center" width="100%" src="./fig/SEIRmodel.PNG">
-<b>Figure 1</b> [image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model</div>
+<img style="float: right" width="100%" src="./fig/SEIR.PNG">
+<b>Figure 1</b> [simplistic SEIR modell</div>
 <br>
 
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
