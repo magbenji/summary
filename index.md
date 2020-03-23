@@ -43,20 +43,6 @@ The figure shows how dramatically the number of predicted infections in Idaho ch
 <b>Figure 2</b> Differences in predictions for Idaho based on initial assumptions </div>
 <br>
 
-
-
-
-Model A: no mitigation
-
-Model B: *brief summary*
-
-Model C: *brief summary*
-
-Model D: *brief summary*
-
-
-
-
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
 
 One concern is that the number of cases reported is an under-estimate. This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people are actually infected - and contagious.
@@ -79,10 +65,29 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br> 
 
+**Model 1**
+-Time to peak:  roughly 15 days, August 16-22
+-At peak:  
+      - etimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
+      - estimate 2: 239,000 infected
+-Final outbreak size:  80.6%
+-Total deaths: 400 (~315 deaths in 65+, ~70 in 55-64, and ~15 in 25-54)
 
-*Infections peak August 16th, at 239,000 (47 initial infections)*
-*Infections peak July 22, at about the same total cases (47 * 5 initial infections)*
-*Infections peak July 10, at about the same total cases (47 * 10 initial infections)*
+**Model 2**
+-Time to peak: July 22,
+-At peak:  
+      - etimate 1: 
+       - estimate 2: 239,000 infected
+-Final outbreak size: 
+-Total deaths: 
+
+**Model 3**
+-Time to peak: July 10
+-At peak:  
+      - etimate 1: 
+      - etimate 2: 239,000 infected
+-Final outbreak size: 
+-Total deaths: 
 
 Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
 This suggests that if no mitigation is done the the peak number of infections will be [date range].
