@@ -38,7 +38,7 @@ These differences in predictions are expected given the differences in the model
 *Infections peak July 22, at about the same total cases (47 * 5 initial infections)*
 *Infections peak July 10, at about the same total cases (47 * 10 initial infections)*
 
-Model A: *brief summary*
+Model A: no mitigation
 
 Model B: *brief summary*
 
