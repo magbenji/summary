@@ -53,7 +53,7 @@ Model 3: The model used ten times the number of Covid-19 cases than were used in
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
 
-*to do - put image to right of list*
+*to do - put image to right of list - label as Figure 1 (or Figure 2 if put in a SEIR figure)*
 <img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
 * 1 (Panhandle) 500, 58
@@ -67,34 +67,24 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
-The below figure shows the number of cases reported by each US state, since the first day with cases reported. 
+Figure 3 shows the number of cases reported by each US state, since the first day with cases reported. 
 The number of Covid-19 cases data for Idaho is shown in red, and the predicted number of cases for Idaho for the next two weeks (if the spread continues at the same rate) is shown in blue.
 
+*label figure 3*
 <img width="600" src="./fig/US_Idaho_predicted.PNG">
 
-The SEIR models suggest that if no mitigation is done, the the peak number of infections will be [date range].
+Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
+This suggests that if no mitigation is done the the peak number of infections will be [date range].
+If there is no mitagation we anticpate that the ventilators wil be overwhelmed [date range], *resulting in an ever higher number of deaths - please let me know if your death rates take into account ventilators*.
+
+
 *image*
 
+Earlier start social distancing = less bad
 Depending on the measures taken to control Covid-19.
 *image*
 
 
-If no mitigation, = bad, overwhelm ventilators. 
-Earlier start social distancing = less bad
-
-
-
-Currently known infected as initial condition, under-reporting scale.
-Same latency, infectious period, demographics
-Reporting best case scenario
-
-Reported, 5x 10x higher
-
-
-
-
-
-The below figures show the anticipated number of infected, hospitalized, and deaths for Idaho. 
 
 
 For more information see the following dashboards:
@@ -109,8 +99,6 @@ Tableau
 
 ## Suggestions
 Don't give a false sense of security
-
-
 
 Age, gender of cases, diagnosis
 
