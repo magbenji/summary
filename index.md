@@ -48,6 +48,8 @@ Model D: *brief summary*
 <b>Figure 1</b> [image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model</div>
 <br>
 
+We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
+
 One concern is that the number of cases reported is an under-estimate. This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people are actually infected - and contagious.
 We anticipate that the number of cases on https://coronavirus.idaho.gov/ is an underestimate as not everyone is likely to present for testing (especially those who are asymptomatic), and it is also our understanding that not everyone who presents with likely Covid-19 will be tested. Given this potential under-estimate in the number of cases three different models were run.
 
@@ -57,7 +59,6 @@ Model 2: The model used five times the number of Covid-19 cases than were used i
 
 Model 3: The model used ten times the number of Covid-19 cases than were used in Model 1, resulting in a total of 480 cases in Idaho.
 
-## Additional information
 <div align="center">
 <img width="35%" src="./fig/Health-Districts-Exploded_Color.jpg"> 
 <br>
@@ -65,14 +66,6 @@ Model 3: The model used ten times the number of Covid-19 cases than were used in
 </div>
 <br>
 
-There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
-1. (Panhandle) 500, 58    
-1. (North Central) 300, 12
-1. (Southwest) 200, 26
-1. (Central) 500, 201
-1. (South Central) 300, 20
-1. (South eastern) 300, 26
-1. (Eastern) 400, 52
 
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
