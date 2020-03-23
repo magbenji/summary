@@ -18,15 +18,15 @@ The information presented below has been compiled from limited data sources, and
 # Predictions
 As mentioned above, predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult. We use a model to make the predictions, and there are currently many unknowns in the equations we are using. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
+<img style="float: right" width="30%" src="./fig/SEIR.PNG">
+<b>Figure 1</b> summary of model used in predictions
+<br>
+
 A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
 People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
 The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
 This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cites please]. 
-*Once recovered, people can become susceptible again - is this true for the models you are running?*.
-
-<img style="float: right" width="30%" src="./fig/SEIR.PNG">
-<b>Figure 1</b> summary of model used in predictions</div>
-<br>
+**Once recovered, people can become susceptible again - is this true for the models you are running?**.
 
 A large number of models were run, each with slightly different model parameters. As each of the models is slightly different the predictions for each of the models are also different. At this point it is unclear which model is the most realistic. The models will be more accurate once more testing is implemented, or when we death data starts to be available.
 
@@ -37,8 +37,8 @@ The infections rates for Italy were used as this is the most complete dataset ou
 Figure 2 illustrates just how important knowing how Covid-19 spreads in Idaho is. 
 The figure shows how dramatically the number of predicted infections in Idaho changes depending on which countries data we use to obtain the initial estimates. 
 
-*asked Jodi to add in china and italy to figure, change y axis to be in 1000s*
-<div align = "center"> <img width="80%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
+**asked Jodi to add in china and italy to figure, change y axis to be in 1000s**
+<div align = "center"> <img width="60%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
 <br>
 <b>Figure 3 </b> Differences in predictions for Idaho based on initial assumptions</div>
 <br> 
@@ -60,7 +60,7 @@ We anticpate that the number of Covid-19 cases in Idaho will follow this exponen
 Figure 3 shows the number of cases reported by each US state, since the first day with cases reported. 
 The number of Covid-19 cases data for Idaho is shown in red, and the predicted number of cases for Idaho for the next two weeks (if the spread continues at the same rate) is shown in blue.
 
-<div align = "center"> <img width="80%" src="./fig/US_Idaho_predicted.PNG">
+<div align = "center"> <img width="70%" src="./fig/US_Idaho_predicted.PNG">
 <br>
 <b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br> 
@@ -123,7 +123,8 @@ If people who are likely immune (based on prior exposure or serology) are not in
 
 The first cases of Covid-19 in Idaho were observed after other states were infected. By tracking the number of cases reported by state we may be able to see how well different intervention strategies have worked elsewhere in the US.
 
-For more accurate future prediction, *what do we want*
+Large-scale testing will help create more accurate future predictions researchers. While death data (once available) will help with improving the predictions, relying on testing is preferrable for obvious reasons. 
+
 Providing more detailed information on who is infected by Covid-19 (e.g., age, gender, comorbidities) will help future predictions be more accurate.
 
 ## Additional information 
