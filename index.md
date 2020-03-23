@@ -21,17 +21,22 @@ As mentioned above, predicting the number of infected, hospitalizations, and dea
 A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
 People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
 The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
-This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cite]. 
+This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cites please]. 
 *Once recovered, people can become susceptible again - is this true for the models you are running?*.
 
 A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
 These differences in predictions are expected given the differences in the model parameters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
 
-All of the models assumed the infection rate was similar to that observed in Italy. The infections rates for Italy were used as this is the most complete dataset outside of Asia. We anticipate that the infection rates in Idaho will be more similar to what has been observed in Europe than in Asia given the differences between the continents. Figure x illustrates how important knowing the parameters of the model are, the number of predicted infections in Idaho changes significantly depending on which countries data we use to obtain the initial estimates. 
+All of the models assumed the infection rate was similar to that observed in Italy. 
+This was a difficult choice to make as different countries have had different infection rates, using a different countries infection rate could significantly alter the predictions we have for Idaho.
+The infections rates for Italy were used as this is the most complete dataset outside of Asia, and we anticipate that the infection rates in Idaho will be more similar to what has been observed in Europe than in Asia given the differences between the continents. 
 
-* ask Jodi to add in china and italy to figure, change y axis to be in 1000s*
-<img style="float: right" width="70%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
-<b>Figure 1</b> Differences in model predictions</div>
+Figure x illustrates just how important knowing how Covid-19 spreads in Idaho is. 
+The figure shows how dramatically the number of predicted infections in Idaho changes depending on which countries data we use to obtain the initial estimates. 
+
+* asked Jodi to add in china and italy to figure, change y axis to be in 1000s*
+<img style="float: right" width="100%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
+<b>Figure 1</b> Differences in predictions for Idaho based on initial assumptions </div>
 <br>
 
 
