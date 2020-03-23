@@ -65,7 +65,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br> 
 
-**Model 1** Starting with 48 cases in Idaho
+**Model 1.** Starting with 48 cases in Idaho
 - Time to peak:  roughly 15 days, August 16-22
 - At peak:  
       - estimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
@@ -73,7 +73,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 - Final outbreak size:  80.6%
 - Total deaths: 400 (~315 deaths in 65+, ~70 in 55-64, and ~15 in 25-54)
 
-**Model 2** Starting with 240 cases in Idaho
+**Model 2.** Starting with 240 cases in Idaho
 - Time to peak: July 22,
 - At peak:  
        - estimate 1: 
@@ -81,7 +81,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 - Final outbreak size: 
 - Total deaths: 
 
-**Model 3** Starting with 480 cases in Idaho
+**Model 3.** Starting with 480 cases in Idaho
 - Time to peak: July 10
 - At peak:  
       - estimate 1: 
