@@ -27,8 +27,14 @@ A total of xx models are presented below. Each of the models is slightly differe
 These differences in predictions are expected given the differences in the model paramters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
 
 *Assumptions of models constent*
+Italy infection rate
+# (1) When do infections peak?
+# (2) What are the total counts of infections at the peak?
+# (3) What proportion of population is infected?
 
-
+Infections peak August 16th, at 239,000 (47 initial infections)
+Infections peak July 22, at about the same total cases (47 * 5 initial infections)
+Infections peak July 10, at about the same total cases (47 * 10 initial infections)
 Model A: *brief summary*
 
 Model B: *brief summary*
