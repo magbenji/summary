@@ -33,17 +33,10 @@ A large number of models were run, each with slightly different model parameters
 All of the models assumed the infection rate was similar to that observed in Italy. 
 This was a difficult choice to make as different countries have had different infection rates, using a different countries infection rate could significantly alter the predictions we have for Idaho.
 The infections rates for Italy were used as this is the most complete dataset outside of Asia, and we anticipate that the infection rates in Idaho will be more similar to what has been observed in Europe than in Asia given the differences between the continents. 
+The Italian rates may over-estimate, more information was available, trajectory closest to US at the moment. 
+Germany deaths not attributed to Covid-19?
 
-Figure 2 illustrates just how important knowing how Covid-19 spreads in Idaho is. 
-The figure shows how dramatically the number of predicted infections in Idaho changes depending on which countries data we use to obtain the initial estimates. 
-
-**asked Jodi to add in china and italy to figure, change y axis to be in 1000s**
-<div align = "center"> <img width="60%" src="./fig/Projection_Belgium_vs_Denmark.jpg">
-<br>
-<b>Figure 3 </b> Differences in predictions for Idaho based on initial assumptions</div>
-<br> 
-
-We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
+We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. If approximately 30% of these beds and ventilators are available for Covid-19 patients, there would be around *xx* HAvBED and *xx* ventilators are typically in use.
 
 One concern is that the number of cases reported is an under-estimate. This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people are actually infected - and contagious.
 We anticipate that the number of cases on https://coronavirus.idaho.gov/ is an underestimate as not everyone is likely to present for testing (especially those who are asymptomatic), and it is also our understanding that not everyone who presents with likely Covid-19 will be tested. Given this potential under-estimate in the number of cases three different models were run.
@@ -66,7 +59,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <br> 
 
 **Model 1.** Starting with 48 cases in Idaho
-- Time to peak:  roughly 15 days, August 16-22
+- Time to peak:  roughly 150 days, August 16-22
 - At peak:  
       - estimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
       - estimate 2: 239,000 infected
