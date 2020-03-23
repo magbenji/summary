@@ -9,34 +9,51 @@ root: .            # Can leave this alone
 
 Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 22, 169 countries/regions have reported at least one Covid-19 case; there have approximately 330,000 confirmed cases of Covid-19 and nearly 15,000 deaths. The United States (US) reported its first case in Washington on January 21. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
-On March 18, universities throughout Idaho (Boise State, Idaho State, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
+On March 18, universities throughout Idaho (Boise State University, Idaho State University, and University of Idaho) were asked to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
-On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention, who outside of Idaho was on the call]*.  
+On March 20, a small team of researchers met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention, who outside of Idaho was on the call]*. The information provided in the document is a short summary of the number of infected, hospitalized, and dead, we could expect to see in Idaho from Covid-19. This information has been compiled from limited data sources, and during a brief period of time. Predicting Covid-19 is very difficult and there is no guarantee that the information presented below is correct. However, based on the information we had at the time, the below summarizes what we might anticipate in the coming weeks and months.
 
 # Predictions
-Predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult given the number of unknowns in the equation. The models and results presented below are based on the limited amount of information currently available. There are many unknown parameters, such as the rate of exposure in Idaho, that will significantly change the model predictions. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
+As mentioned above, predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult. We use a model to make the predictions, and there are currently many unknowns in the equations we are using. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
-Susceptible, Exposed, Infected, and Removed (SEIR) models have been successfully used for other, similar, epidemics [cite] and have been used to model Covid-19 in Idaho. 
-The simplest SEIR model starts with a number of people susceptible to an illness. 
-People who are susceptible become exposed, those who are exposed become infectious, and those who are infectious recover or die. 
-*Once recovered, people can become susceptible again - is this true for the models you are running?*.
+A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
+People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
 The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
+This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cite]. 
+
+*Once recovered, people can become susceptible again - is this true for the models you are running?*.
 
 A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
-These differences in predictions are expected given the differences in the model paramters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19.
+These differences in predictions are expected given the differences in the model paramters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
+
+*Assumptions of models constent*
+
 
 Model A: *brief summary*
+
 Model B: *brief summary*
+
 Model C: *brief summary*
+
 Model D: *brief summary*
 
 *[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model* 
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
 
+One concern is that the number of cases reported is an under-estimate. This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people are actually infected - and contagious.
+We anticipate that the number of cases on https://coronavirus.idaho.gov/ is an underestimate as not everyone is likely to present for testing (especially those who are asymptomatic), and it is also our understanding that not everyone who presents with likely Covid-19 will be tested. Given this potential under-estimate in the number of cases three different models were run.
+
+Model 1: The model uses the number of offically recorded Covid-19 cases as reported on Mar 22, 2020. As six of the seven Public Health Districts were reporting a case of Covid-19, for simplicity the seventh Public Health District (North Central) was set to have one case as well. This resulted in a total of 48 cases in Idaho.
+
+Model 2: The model used five times the number of Covid-19 cases than were used in Model 1, resulting in a total of 240 cases in Idaho.
+
+Model 3: The model used ten times the number of Covid-19 cases than were used in Model 1, resulting in a total of 480 cases in Idaho.
+
 ## Additional information
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
 
+*to do - put image to right of list*
 <img style="float: right" width="200" src="./fig/Health-Districts-Exploded_Color.jpg">
 
 * 1 (Panhandle) 500, 58
@@ -47,20 +64,20 @@ There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (H
 * 6 (South eastern) 300, 26
 * 7 (Eastern) 400, 52
 
-
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
-
-In the figure below the number of cases reported by each US state, since the first day with cases reported, is shown. 
-The number of Covid-19 cases data for Idaho is shown in red. 
-The predicted number of cases for Idaho for the next two weeks, if the spread continues at the same rate, is shown in blue.
+The below figure shows the number of cases reported by each US state, since the first day with cases reported. 
+The number of Covid-19 cases data for Idaho is shown in red, and the predicted number of cases for Idaho for the next two weeks (if the spread continues at the same rate) is shown in blue.
 
 <img width="600" src="./fig/US_Idaho_predicted.PNG">
 
-The SEIR models suggest that the peak number of infections will be [date range], depending on the measures taken to control Covid-19.
+The SEIR models suggest that if no mitigation is done, the the peak number of infections will be [date range].
+*image*
 
-Assumptions of models: 
+Depending on the measures taken to control Covid-19.
+*image*
+
 
 If no mitigation, = bad, overwhelm ventilators. 
 Earlier start social distancing = less bad
