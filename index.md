@@ -27,6 +27,11 @@ The rate at which people go from being susceptible to exposed to infected to rec
 A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
 These differences in predictions are expected given the differences in the model paramters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19.
 
+Model A: *brief summary*
+Model B: *brief summary*
+Model C: *brief summary*
+Model D: *brief summary*
+
 *[image SEIR, currently direct copy paste /plagerism from https://www.idmod.org/docs/hiv/model-seir.html] update to show a simple version of what was run for Idaho, potentially Bens' model* 
 
 <img style="float: right" width="600" src="./fig/SEIRmodel.PNG">
