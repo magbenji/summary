@@ -66,20 +66,14 @@ Model 3: The model used ten times the number of Covid-19 cases than were used in
 <br>
 
 There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The approximate number of HAvBED and ventilator for each Public Health District are:
+1. (Panhandle) 500, 58    
+1. (North Central) 300, 12
+1. (Southwest) 200, 26
+1. (Central) 500, 201
+1. (South Central) 300, 20
+1. (South eastern) 300, 26
+1. (Eastern) 400, 52
 
-
-<ol style="left">
-<li> (Panhandle) 500, 58    </li>
-<li> (North Central) 300, 12</li>
-<li> (Southwest) 200, 26</li>
-<li> (Central) 500, 201</li>
-<li> (South Central) 300, 20</li>
-<li> (South eastern) 300, 26</li>
-<li> (Eastern) 400, 52</li>
-</ol>
-
-
-<br>
 # Results
 The number of reported Covid-19 cases by each US state have been increasing at an exponential rate.
 We anticpate that the number of Covid-19 cases in Idaho will follow this exponential rate seen in the other states in the short term.
