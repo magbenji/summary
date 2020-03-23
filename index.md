@@ -22,21 +22,13 @@ A simplistic approach of modeling Covid-19 starts with a number of people suscep
 People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
 The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
 This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cite]. 
-
 *Once recovered, people can become susceptible again - is this true for the models you are running?*.
 
 A total of xx models are presented below. Each of the models is slightly different, resulting in different predictions. 
-These differences in predictions are expected given the differences in the model paramters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
+These differences in predictions are expected given the differences in the model parameters - at this point it is unclear which model is the most realistic. More testing will result in more accurate predictions in how many people will be impacted by Covid-19. 
 
-*Assumptions of models constent*
-*Italy infection rate*
-* (1) When do infections peak?*
-* (2) What are the total counts of infections at the peak?*
-* (3) What proportion of population is infected?*
+All of the models assumed the infection rate was similar to that observed in Italy. The infections rates for Italy were used as this is the most complete dataset outside of Asia. We anticipate that the infection rates in Idaho will be more similar to what has been observed in Europe than in Asia given *Idaho more similar to Europe than Asia, how to state politically*
 
-*Infections peak August 16th, at 239,000 (47 initial infections)*
-*Infections peak July 22, at about the same total cases (47 * 5 initial infections)*
-*Infections peak July 10, at about the same total cases (47 * 10 initial infections)*
 
 Model A: no mitigation
 
@@ -48,7 +40,7 @@ Model D: *brief summary*
 
 
 <img style="float: right" width="30%" src="./fig/SEIR.PNG">
-<b>Figure 1</b> simplistic SEIR modell</div>
+<b>Figure 1</b> simplistic SEIR model</div>
 <br>
 
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho. The number of these available for Covid-19 patients would be lower, it is unclear at this time how many HAvBED and ventilators are typically in use.
@@ -73,6 +65,10 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <b>Figure 2 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br>
 
+
+*Infections peak August 16th, at 239,000 (47 initial infections)*
+*Infections peak July 22, at about the same total cases (47 * 5 initial infections)*
+*Infections peak July 10, at about the same total cases (47 * 10 initial infections)*
 
 Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
 This suggests that if no mitigation is done the the peak number of infections will be [date range].
