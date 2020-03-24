@@ -13,6 +13,7 @@ root: .            # Can leave this alone
 
 ## Boise State University
 * Richard Elliot
+* Matthew Ferguson
 * Jeff Lingwall
 * Eric Jankowski
 
