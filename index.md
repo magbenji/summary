@@ -105,10 +105,9 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 
 <figure style="float:center;width:70%" align="center">
 <img style="float:center" src="./fig/US_Idaho_predicted.PNG">
-<figcaption><b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</figcaption>
+<figcaption><b>Figure 3 </b> Known cases of Covid-ID by state (gray). <font color="red">Red represents Idaho reported infections</font>, and <font color="blue">Blue represents Idaho predicted infections</font>. March 22nd is roughly day 10 on this figure. Day 20 corresponds to roughly April 1.</figcaption>
 </figure>
 <br>
-
 
 **Scenario 1.** Starting with 48 cases in Idaho
 - Time to peak:  roughly 150 days, August 16-22
