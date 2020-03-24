@@ -174,7 +174,7 @@ If there is no mitagation we anticpate that the ventilators wil be overwhelmed [
 
 *Figure predicted Idaho infected hospitilations, deaths showing range in predictions - send me your day 1-365 predictions*
 
-<figure style="float:center;width:70%" align="center">
+<figure style="float:center;width:100%" align="center">
 <img style="float:center" src="./fig/epiSize2panel.png">
 <figcaption><b>Figure X:</b> Network modeling of COVID-19 predict that if 7.5% of the population has fewer than 5 "contacts", R0 will be reduced below 1 and there will be no epidemic. "Contacts" here refer to generic transmission connections, including interpersonal contacts and shared spaces (offices) whereby transmission may occur.</figcaption>
 </figure>
