@@ -6,7 +6,7 @@ root: .            # Can leave this alone
 [//]: # (MD Cheat sheet: https://www.markdownguide.org/cheat-sheet/)
 
 ## Disclaimer
-Uncertainty in the number of currently infected COVID-19 individuals, transmission rate, age-dependent mortality, re-introduction of infections from out-of-state, and changing contact networks throughout the state place extremely large uncertainties and caveats on the results and recommendations reported herein, which were developed, tested, and analyzed in under 100 hours.
+Uncertainty in the number of currently infected COVID-19 individuals, transmission rate, age-dependent mortality, re-introduction of infections from out-of-state, and changing contact networks throughout the state place extremely large uncertainties and caveats on the results and recommendations reported herein, which the consortium developed, tested, and consolidated in under 100 hours.
 
 # Executive Summary
 About 85% of the population of Idaho is predicted to be infected by COVID-19 over the next year.
