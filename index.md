@@ -17,9 +17,10 @@ The information presented below has been compiled from limited data sources, and
 ## Methods
 As mentioned above, predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult. We use a model to make the predictions, and there are currently many unknowns in the equations we are using. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
-<img style="float: right" width="30%" src="./fig/SEIR.PNG">
-<b>Figure 1</b> simplistic summary of the models used in predictions
-<br>
+<figure style="float:right;width:40%">
+<img src="./fig/SEIR.PNG" >
+<figcaption><b>Figure 1</b> simplistic summary of the models used in predictions </figcaption>
+</figure>
 
 A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
 People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
