@@ -34,13 +34,15 @@ No guarantees of numerical accuracy are made for the predictions that follow.
 However, based on information available between March 20 and March 24, the following models and methods give a peek at what we might anticipate over the next year.
 
 ## Methods
-We use a model to make the predictions, and there are currently many unknowns in the equations we are using. 
-For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. 
-While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
+We compare two implementations of SEIR (**Figure 1**) models, network scaling theory, and empirical fits to international COVID-19 outbreak data to infer epidemic progression in Idaho.
+In the SEIR implementations evaluated here, errors in input parameters, population demographics, and initial conditions give rise to errors in preductions.
+For instance, if the Exposed population is actually larger than we input into the models, the actual peak in infections will occur sooner than predicted by the models.
+While the exact values for each parameter is not presently known, the values used here are within ranges that are informed by recent publications and observations of COVID-19's international spread.
+We examine the sensitivity of the models to parameterizations within reported ranges (for example, death rates from Italy vary significantly from those reported from China, and recent reporting from the US indicates higher death rates for young individuals than in Italy), and we present predictions based on these ranges. 
 
 <figure style="float:right;width:40%;margin-left:20px">
 <img src="./fig/SEIR.PNG" >
-<figcaption><b>Figure 1</b> simplistic summary of the models used in predictions </figcaption>
+<figcaption><b>Figure 1</b> The primary models presented here calculate changes over time in how many people are Susceptible (S) to COVID-19, Exposed (E), Infected (I), Recovered (R) (hence, <b>SEIR</b>), and Dead. </figcaption>
 </figure>
 
 A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
