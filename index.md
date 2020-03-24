@@ -69,7 +69,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 <b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
 <br> 
 
-**Model 1.** Starting with 48 cases in Idaho
+**Scenario 1.** Starting with 48 cases in Idaho
 - Time to peak:  roughly 150 days, August 16-22
 - At peak:  
       - estimate 1: 1,000 hospitalizations, 20,000 symptomatic, 130,000 asymptomatic.
@@ -77,7 +77,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 - Final outbreak size:  80.6%
 - Total deaths: 400 (~315 deaths in 65+, ~70 in 55-64, and ~15 in 25-54)
 
-**Model 2.** Starting with 240 cases in Idaho
+**Scenario 2.** Starting with 240 cases in Idaho
 - Time to peak: July 22,
 - At peak:  
        - estimate 1: 
@@ -85,7 +85,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 - Final outbreak size: 
 - Total deaths: 
 
-**Model 3.** Starting with 480 cases in Idaho
+**Scenario 3.** Starting with 480 cases in Idaho
 - Time to peak: July 10
 - At peak:  
       - estimate 1: 
@@ -142,14 +142,13 @@ Providing more detailed information on who is infected by Covid-19 (e.g., age, g
 ## Additional information 
 For more information specific to Idaho, see the following websites:
 
-A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/588295
+A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/588295 
 
 A dashboard with multiple parameters that https://benridenhour.shinyapps.io/COVID-19_ID/
 
 A dashboard with multiple parameters that xxx https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes
 
-
-Who was involved:
+Who was involved (+ email contacts):
 Boise State University:
 Idaho State University:
 University of Idaho:
