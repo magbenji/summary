@@ -20,11 +20,13 @@ Therefore the overall recommendation is to impose the strictest realistic social
 Idaho may still have the opportunity to prevent widespread infection, hospitalization, and death, **IF** testing capacity can catch up during a period of rigid social distancing.
 If testing cannot catch up and quarantining cannot be effectively deployed to prevent widespread infection, social distancing remains necessary to manage stress on Idaho's health care system and caregivers.
 With roughly 2,500 hospital beds and 400 ventilators in the state (750 and 120 of which are available, respectively), predicting the timing and scale of regional COVID-19 hospitalizations is the core focus of this work.
-Here [we][idaho] describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
+Here [we](team) describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
     
 Click [HERE](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes) to interact with SEIR predictions of infections and deaths for high-risk and low-risk populations at the district level across Idaho.
 
 Click [HERE](https://benridenhour.shinyapps.io/COVID-19_ID/) to interact with SEIR-style predictions of city-specific hospitalizations.
+
+Click [HERE](https://rpubs.com/IrenevanWoerden/588295) for summary of Idaho infections compared across the country and globe.
 
 Code and datasets used in this work are available on [github](https://github.com/idaho-covid-response). 
 Presently [Eric Jankowski](mailto:ericjankowski@boisestate.edu) manages access to the Idaho Covid Response github team, though we anticipate making these repositories publicly available shortly.
@@ -150,7 +152,7 @@ If there is no mitagation we anticpate that the ventilators wil be overwhelmed [
 *Figure predicted Idaho infected hospitilations, deaths showing range in predictions - send me your day 1-365 predictions*
 
 
-## Conclusions
+# Conclusions
 The limited number of tests being conducted, and the delay in testing results becoming available, is significantly hampering modeling efforts. It is difficult to accurately model Covid-19 in Idaho given the wide range of uncertainty in the model parameters. We ran a large number of models, 
 
 Several different approaches to modelling Covid-19 in Idaho were used.
@@ -170,7 +172,7 @@ If Idaho slows the spread by 50% (such as by shutting schools and isolate Covid-
 
 **With strong social distancing** our predictions suggest that ventilators will be overwhelmed if no social distancing effort are put in place.  If Idaho slows the spread by 60% (such as by shutting schools, isolating Covid-19 cases, and *xxxx*) then ventilators would be available in Idaho (not necessarily) for the majority of the time. 
 
-**Overall summary**
+# Summary
 The number of cases reported in Idaho likely has a delay, such that it may take several days for a person with Covid-19 who is tested to be officially confirmed and reported. This means that any intervention will also have a delay in reducing the number of cases in Idaho. If there is a week-long delay between testing and results, it will take one week before the results of any intervention can start to be seen. As the current growth of Covid-19 is exponential, a one-week delay (for instance) would result in the actual numbers in Idaho being much, much, higher than what is reported. Given this exponential growth we suggest a period of social distancing while the extent of Covid-19 in Idaho is determined.
 
 Not testing - This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people will be infected in the future.
@@ -180,25 +182,9 @@ After this period of strong social distancing a period of relaxed social distanc
 
 If people who are likely immune (based on prior exposure or serology) are not infections, there is no reason for these people to not  get back to normal economic activity. PCR tests and serology (once available) will indicate how many people are likely immune from this current Covid-19 virus. 
 
-The models will be more accurate once more testing is implemented, or when we death data starts to be available.
-
-The first cases of Covid-19 in Idaho were observed after other states were infected. By tracking the number of cases reported by state we may be able to see how well different intervention strategies have worked elsewhere in the US.
-
-Large-scale testing will help create more accurate future predictions researchers. While death data (once available) will help with improving the predictions, relying on testing is preferrable for obvious reasons. 
-
-Providing more detailed information on who is infected by Covid-19 (e.g., age, gender, comorbidities) will help future predictions be more accurate.
-
 ## Additional information 
-For more information specific to Idaho, see the following websites:
 
-A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/588295 
-
-[A dashboard with multiple parameters](https://benridenhour.shinyapps.io/COVID-19_ID/)
-
-[A dashboard with multiple parameters that shows potential effect on ventilator and ICU capacity by public health district](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes)
-
-* [Team][idaho]
+* [Team](team)
 * [Sources](sources)
 
-[//]: # (Links below)
-[idaho]: team
+[//]: # (Internal links below, but perhaps avoid using?)
