@@ -2,9 +2,6 @@
 layout: page       # Can leave this alone
 root: .            # Can leave this alone
 ---
----
-[//]: # (* [Zhang, S., Diao, M., Yu, W., Pei, L., Lin, Z., & Chen, D. (2020)](http://doi.org/10.1016/j.ijid.2020.02.033))
----
 # Sources and Citations
 
 1. 	Di Domenico L, Pullano G, Coletti P, Hens N, Colizza V. Expected impact of school closure and telework to mitigate COVID-19 epidemic in France. Available: https://www.epicx-lab.com/uploads/9/6/9/4/9694133/inserm_covid-19-school-closure-french-regions_20200313.pdf
