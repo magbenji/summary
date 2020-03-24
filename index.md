@@ -98,7 +98,7 @@ This suggests that if no mitigation is done the the peak number of infections wi
 If there is no mitagation we anticpate that the ventilators wil be overwhelmed [date range], *resulting in an ever higher number of deaths - please let me know if your death rates take into account ventilators*.
 
 
-*image*
+*Figure predicted Idaho infected hospitilations, deaths showing range in predictions - send me your day 1-365 predictions*
 
 
 ## Conclusions
