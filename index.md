@@ -168,12 +168,8 @@ A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden
 
 [A dashboard with multiple parameters that shows potential effect on ventilator and ICU capacity by public health district](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes)
 
-Who was involved (+ email contacts):
-Boise State University: Jeff Lingwall, jefflingwall@boisestate.edu
-Idaho State University:
-University of Idaho:
-Washington State University:
-Lewis and Clark:
+* [Team][idaho]
+* [Sources](sources)
 
 [//]: # (Links below)
 [idaho]: team
