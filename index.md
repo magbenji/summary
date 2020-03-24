@@ -6,7 +6,7 @@ root: .            # Can leave this alone
 [//]: # (MD Cheat sheet: https://www.markdownguide.org/cheat-sheet/)
 
 ## Disclaimer
-Uncertainty in the number of currently infected COVID-19 individuals, transmission rate, age-dependent mortality, re-introduction of infections from out-of-state, and changing contact networks throughout the state place extremely large uncertainties and caveats on the results and recommendations reported herein.
+Uncertainty in the number of currently infected COVID-19 individuals, transmission rate, age-dependent mortality, re-introduction of infections from out-of-state, and changing contact networks throughout the state place extremely large uncertainties and caveats on the results and recommendations reported herein, which were developed, tested, and analyzed in under 100 hours.
 
 # Executive Summary
 About 85% of the population of Idaho is predicted to be infected by COVID-19 over the next year.
@@ -18,7 +18,7 @@ Therefore the overall recommendation is to impose the strictest realistic social
 **The only way to prevent 85% of the population from getting infected is to quarantine contageous individuals and doing so requires widespread, timely testing.**
 
 Idaho may still have the opportunity to prevent widespread infection, hospitalization, and death, **IF** testing capacity can catch up during a period of rigid social distancing.
-If testing cannot catch up and quarantining cannot be effectively deployed to prevent widespread infection, social distancing is necessary to manage stress on Idaho's health care system and caregivers.
+If testing cannot catch up and quarantining cannot be effectively deployed to prevent widespread infection, social distancing remains necessary to manage stress on Idaho's health care system and caregivers.
 With roughly 2,500 hospital beds and 400 ventilators in the state (750 and 120 of which are available, respectively), predicting the timing and scale of regional COVID-19 hospitalizations is the core focus of this work.
 Here [we][idaho] describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
     
@@ -29,10 +29,14 @@ On March 18, a call was sent out to identify a team of researchers to provide a 
 
 On March 20, a small team of researchers from Boise State University, Idaho State University, University of Idaho, Lewis and Clark, and Washington State University met with TJ Bliss (Board of Education), Martijn van Beek (Idaho Department of Health and Welfare) *[others important to mention]*. The information provided in the document is a short summary of the number of infected, hospitalized, and dead, we could expect to see in Idaho from Covid-19. 
 
-The information presented below has been compiled from limited data sources, and during a brief period of time. Predicting Covid-19 is very difficult and there is no guarantee that the information presented below is correct. However, based on the information we had at the time, the below summarizes what we might anticipate in the coming weeks and months.
+We reiterate our above disclaimer: Modeling Covid-19 with numerical accuracy will only be possible in hindsight. 
+No guarantees of numerical accuracy are made for the predictions that follow.
+However, based on information available between March 20 and March 24, the following models and methods give a peek at what we might anticipate over the next year.
 
 ## Methods
-As mentioned above, predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult. We use a model to make the predictions, and there are currently many unknowns in the equations we are using. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
+We use a model to make the predictions, and there are currently many unknowns in the equations we are using. 
+For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. 
+While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
 <figure style="float:right;width:40%;margin-left:20px">
 <img src="./fig/SEIR.PNG" >
