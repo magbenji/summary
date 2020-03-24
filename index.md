@@ -17,7 +17,7 @@ The information presented below has been compiled from limited data sources, and
 ## Methods
 As mentioned above, predicting the number of infected, hospitalizations, and deaths in Idaho due to Covid-19 is difficult. We use a model to make the predictions, and there are currently many unknowns in the equations we are using. For instance, if the number of people who are exposed is higher (or lower) than the parameter in the model, the model will under (or over) estimate the number of people who become infected. While the exact value for the parameters is unknown, we can use the prior information to guess a range of plausible values. For each parameter we have examined a range of values, and we present the expected potential values based on these ranges. 
 
-<figure style="float:right;width:40%">
+<figure style="float:right;width:40%;margin-left:20px">
 <img src="./fig/SEIR.PNG" >
 <figcaption><b>Figure 1</b> simplistic summary of the models used in predictions </figcaption>
 </figure>
@@ -65,10 +65,12 @@ We anticpate that the number of Covid-19 cases in Idaho will follow this exponen
 Figure 3 shows the number of cases reported by each US state, since the first day with cases reported. 
 The number of Covid-19 cases data for Idaho is shown in red, and the predicted number of cases for Idaho for the next two weeks (if the spread continues at the same rate) is shown in blue.
 
-<div align = "center"> <img width="70%" src="./fig/US_Idaho_predicted.PNG">
+<figure style="float:center;width:70%" align="center">
+<img style="float:center" src="./fig/US_Idaho_predicted.PNG">
+<figcaption><b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</figcaption>
+</figure>
 <br>
-<b>Figure 3 </b> Known cases of Covid-ID by state. Red line = Idaho reported, blue line = Idaho predicted</div>
-<br> 
+
 
 **Scenario 1.** Starting with 48 cases in Idaho
 - Time to peak:  roughly 150 days, August 16-22
@@ -145,9 +147,9 @@ For more information specific to Idaho, see the following websites:
 
 A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/588295 
 
-A dashboard with multiple parameters that https://benridenhour.shinyapps.io/COVID-19_ID/
+[A dashboard with multiple parameters](https://benridenhour.shinyapps.io/COVID-19_ID/)
 
-A dashboard with multiple parameters that xxx https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes
+[A dashboard with multiple parameters that xxx](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes)
 
 Who was involved (+ email contacts):
 Boise State University:
@@ -157,8 +159,4 @@ Washington State University:
 Lewis and Clark:
 
 [//]: # (Links below)
-[image1]: ./fig/SEIRmodel.PNG
-[image2]: ./fig/Health-Districts-Exploded_Color.jpg
-[image3]: ./fig/US_Idaho_predicted.PNG
-[Alt text for image1]: slack snapshot
 
