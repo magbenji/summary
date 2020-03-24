@@ -40,6 +40,8 @@ All of the models assumed the infection rate, the R0, was similar to that observ
 The infection rates of Italy were chosen given the number of infections in the United States is currently similar to Italy.
 The models also assumed *what else was constant across models*
 
+*Figure 2 - Holly image of Wuhan vs Italy infectious rates with Idaho data*
+
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho.
 These supplies are to meet the demand for all emergencies and disasters, not just for Covid-19. 
 If approximately 30% of these beds and ventilators are available for Covid-19 patients, Idaho would have around 750 HAvBED and 120 ventilators available.
