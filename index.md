@@ -120,6 +120,7 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 </figure>
 <br>
 
+**If no social distancing is implemented**
 **Scenario 1.** Starting with 48 cases in Idaho
 - Time to peak:  roughly 150 days, August 16-22
 - At peak:  
@@ -142,6 +143,28 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
       - estimate 1: 
       - etimate 2: 239,000 infected
 - Final outbreak size: 
+- Total deaths: 
+
+**If social distancing measures are implemented**
+**Scenario 1.** Starting with 48 cases in Idaho
+- Time to peak:  
+- At peak:  
+      - estimate 1: 
+- Final outbreak size:
+- Total deaths: 
+
+**Scenario 2.** Starting with 240 cases in Idaho
+- Time to peak:  
+- At peak:  
+      - estimate 1: 
+- Final outbreak size:
+- Total deaths: 
+
+**Scenario 3.** Starting with 480 cases in Idaho
+- Time to peak:  
+- At peak:  
+      - estimate 1: 
+- Final outbreak size:
 - Total deaths: 
 
 Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
