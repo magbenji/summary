@@ -4,6 +4,23 @@ root: .            # Can leave this alone
 ---
 [//]: # (This is a comment that won't be rendered at github.io)
 [//]: # (MD Cheat sheet: https://www.markdownguide.org/cheat-sheet/)
+
+## Disclaimer
+Uncertainty in the number of currently infected COVID-19 individuals, transmission rate, age-dependent mortality, re-introduction of infections from out-of-state, and changing contact networks throughout the state place extremely large uncertainties and caveats on the results and recommendations reported herein.
+
+# Executive Summary
+About 85% of the population of Idaho is predicted to be infected by COVID-19 over the next year.
+An ensemble of models is developed and tuned to Idaho's demographics by researchers from Idaho's public 4-year colleges.
+These models predict a peak in infected individuals---and therefore hospitalizations---will occur in July or August.
+School closures and sheltering-in-place are predicted to delay the date at which the peak occurs and lower the maximum number of simultaneous hospitalizations, as are other strategies that limit physical contact between people.
+Outbreaks of COVID-19 are predicted to occur after social distancing policies are lifted.
+Therefore the overall recommendation is to impose the strictest realistic social distancing policies until state-wide COVID-19 testing is not a limiting factor in identifying infections.
+**The only way to prevent 85% of the population from getting infected is to quarantine contageous individuals and doing so requires widespread, timely testing.**
+
+Idaho may still have the opportunity to prevent widespread infection, hospitalization, and death, **IF** testing capacity can catch up during a period of rigid social distancing.
+If testing cannot catch up and quarantining cannot be effectively deployed to prevent widespread infection, social distancing is necessary to manage stress on Idaho's health care system and caregivers.
+With roughly 2,500 hospital beds and 400 ventilators in the state (750 and 120 of which are available, respectively), predicting the timing and scale of regional COVID-19 hospitalizations is the core focus of this work.
+Here [we][idaho] describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
     
 # Introduction
 Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 23, 168 countries/regions have reported at least one Covid-19 case; there have approximately 400,000 confirmed cases of Covid-19 and 16,000 deaths. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
@@ -159,4 +176,4 @@ Washington State University:
 Lewis and Clark:
 
 [//]: # (Links below)
-
+[idaho]: team
