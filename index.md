@@ -55,12 +55,14 @@ The R0 is one of the parameters in the model, R0 is the average number of people
 An R0 of two means that, on average, each infected person will infect two other people.
 An R0 of one means that, on average, each infected person will infect one other person.
 An R0 of 0.5 means that, on average, for every two infected persons, only one person will become infected.
-The exponential growth observed with Covid-19 is due to the R0 being greater than one.
+The exponential growth observed with Covid-19 is due to the R0 being greater than one (~2.3)
 As social distancing increases, the average number of people who an infected person infects with Covid-19 reduces, resulting in a lower R0. Only when R0 is less than one will the spread of Covid-19 decrease.
 
-All of the models assumed the infection rate, the R0, was similar to that observed in Italy. 
-The infection rates of Italy were chosen given the number of infections in the United States is currently similar to Italy.
-The models also assumed *what else was constant across models*
+Unless otherwise stated, models repored here are parameterized based on observations from Italy, where the progression of the disease and mortality most closely matches the limited data collected from the US. 
+Note that reported cases in the US are currently outpacing Italy's historical data, making the predictions that follow conservative (possible underestimates) of infection and death rates in the US and Idaho.
+The SEIR-style models assume infected individuals have a mean-time to recovery ("1/gamma") of 12.9 days, and
+* Italy age-based death rates from wikipedia
+* Idaho age distributions by county
 
 *Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
 
