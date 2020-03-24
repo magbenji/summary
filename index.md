@@ -21,8 +21,6 @@ As mentioned above, predicting the number of infected, hospitalizations, and dea
 <b>Figure 1</b> simplistic summary of the models used in predictions
 <br>
 
-*italy + henan graph from Jodi predicting Idaho infections*
-
 A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
 People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
 The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
@@ -40,7 +38,7 @@ All of the models assumed the infection rate, the R0, was similar to that observ
 The infection rates of Italy were chosen given the number of infections in the United States is currently similar to Italy.
 The models also assumed *what else was constant across models*
 
-*Figure 2 - Holly image of Wuhan vs Italy infectious rates with Idaho data*
+*Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
 
 We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho.
 These supplies are to meet the demand for all emergencies and disasters, not just for Covid-19. 
