@@ -22,6 +22,13 @@ If testing cannot catch up and quarantining cannot be effectively deployed to pr
 With roughly 2,500 hospital beds and 400 ventilators in the state (750 and 120 of which are available, respectively), predicting the timing and scale of regional COVID-19 hospitalizations is the core focus of this work.
 Here [we][idaho] describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
     
+Click [HERE](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes) to interact with SEIR predictions of infections and deaths for high-risk and low-risk populations at the district level across Idaho.
+
+Click [HERE](https://benridenhour.shinyapps.io/COVID-19_ID/) to interact with SEIR-style predictions of city-specific hospitalizations.
+
+Code and datasets used in this work are available on [github](https://github.com/idaho-covid-response). 
+Presently [Eric Jankowski](mailto:ericjankowski@boisestate.edu) manages access to the Idaho Covid Response github team, though we anticipate making these repositories publicly available shortly.
+
 # Introduction
 Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 23, 168 countries/regions have reported at least one Covid-19 case; there have approximately 400,000 confirmed cases of Covid-19 and 16,000 deaths. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
 
@@ -58,18 +65,22 @@ An R0 of 0.5 means that, on average, for every two infected persons, only one pe
 The exponential growth observed with Covid-19 is due to the R0 being greater than one (~2.3)
 As social distancing increases, the average number of people who an infected person infects with Covid-19 reduces, resulting in a lower R0. Only when R0 is less than one will the spread of Covid-19 decrease.
 
+*Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
+## Baseline assumptions
+
 Unless otherwise stated, models repored here are parameterized based on observations from Italy, where the progression of the disease and mortality most closely matches the limited data collected from the US. 
 Note that reported cases in the US are currently outpacing Italy's historical data, making the predictions that follow conservative (possible underestimates) of infection and death rates in the US and Idaho.
 The SEIR-style models assume infected individuals have a mean-time to recovery ("1/gamma") of 12.9 days, and
 * Italy age-based death rates from wikipedia
 * Idaho age distributions by county
+* R0 of about 2.3
+* There are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED)
+* There are roughly 400 ventilators in Idaho.
+* Approximately 30% of these beds and ventilators are available for Covid-19 patients: Idaho has around 750 HAvBEDs and 120 ventilators.
+* Day 1 of all models is March 22, with 47 confirmed cases.
 
-*Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
 
-We anticipate that there are roughly 2,500 Hospital Available Beds for Emergencies and Disasters (HAvBED) and 400 ventilators in Idaho.
-These supplies are to meet the demand for all emergencies and disasters, not just for Covid-19. 
-If approximately 30% of these beds and ventilators are available for Covid-19 patients, Idaho would have around 750 HAvBED and 120 ventilators available.
-
+*maybe move some of this to disclaimers?*
 One concern is that the number of cases reported is an under-estimate. 
 We anticipate that the number of cases on https://coronavirus.idaho.gov/ underestimates the current number of cases.
 This is because not everyone is likely to present for testing (especially those who are asymptomatic), a potential lack of supplies such that not everyone with Covid-19 who presents is tested, and delays in processing tests and confirming and reporting cases. 
@@ -77,6 +88,8 @@ This is because not everyone is likely to present for testing (especially those 
 The number of cases in Idaho are required to accurately model Covid-19. 
 Given the anticipated under-estimate in the number of officially reported cases three different scenarios were run.
 
+
+## Core Scenarios
 **Scenario 1**: The model uses the number of offically recorded Covid-19 cases as reported on Mar 22, 2020 (a total of 48 cases).
 For simplicity, some of models set the seventh Public Health District (North Central), which was not reporting any cases on Mar 22, to have one case as well. 
 
