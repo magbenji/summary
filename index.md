@@ -66,6 +66,13 @@ The exponential growth observed with Covid-19 is due to the R0 being greater tha
 As social distancing increases, the average number of people who an infected person infects with Covid-19 reduces, resulting in a lower R0. Only when R0 is less than one will the spread of Covid-19 decrease.
 
 *Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
+
+<figure style="float:center;width:70%" align="center">
+<img style="float:center" src="./fig/SIRModeldifferentR0.PNG">
+<figcaption><b>Figure 3 </b> Anticipated number of infections in Idaho based on R0 values of x,x,x, and x </figcaption>
+</figure>
+<br>
+
 ## Baseline assumptions
 
 Unless otherwise stated, models repored here are parameterized based on observations from Italy, where the progression of the disease and mortality most closely matches the limited data collected from the US. 
