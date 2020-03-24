@@ -9,30 +9,28 @@ root: .            # Can leave this alone
 Uncertainty in the number of currently infected COVID-19 individuals, transmission rate, age-dependent mortality, re-introduction of infections from out-of-state, and changing contact networks throughout the state place extremely large uncertainties and caveats on the results and recommendations reported herein, which the consortium developed, tested, and consolidated in under 100 hours.
 
 # Executive Summary
-About 85% of the population of Idaho is predicted to be infected by COVID-19 over the next year.
+About 75-85% of the population of Idaho is predicted to be infected by COVID-19 over the next year.
 An ensemble of models is developed and tuned to Idaho's demographics by researchers from Idaho's public 4-year colleges.
 These models predict a peak in infected individuals---and therefore hospitalizations---will occur in July or August.
 School closures and sheltering-in-place are predicted to delay the date at which the peak occurs and lower the maximum number of simultaneous hospitalizations, as are other strategies that limit physical contact between people.
 Outbreaks of COVID-19 are predicted to occur after social distancing policies are lifted.
 Therefore the overall recommendation is to impose the strictest realistic social distancing policies until state-wide COVID-19 testing is not a limiting factor in identifying infections.
-**The only way to prevent 85% of the population from getting infected is to quarantine contageous individuals and doing so requires widespread, timely testing.**
+**The only way to prevent a severe COVID-19 epidemic is to quarantine contageous individuals and doing so requires widespread, timely testing. Furthermore, testing is needed to determine if it is safe to lift intervention measures.**
 
 Idaho may still have the opportunity to prevent widespread infection, hospitalization, and death, **IF** testing capacity can catch up during a period of rigid social distancing.
 If testing cannot catch up and quarantining cannot be effectively deployed to prevent widespread infection, social distancing remains necessary to manage stress on Idaho's health care system and caregivers.
 With roughly 2,500 hospital beds and 400 ventilators in the state (750 and 120 of which are available, respectively), predicting the timing and scale of regional COVID-19 hospitalizations is the core focus of this work.
-Here [we](team) describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
+Here [we][idaho] describe the ensemble of models tuned to Idaho's current demographics, their broad predictions, and limitations.
     
 Click [HERE](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes) to interact with SEIR predictions of infections and deaths for high-risk and low-risk populations at the district level across Idaho.
 
 Click [HERE](https://benridenhour.shinyapps.io/COVID-19_ID/) to interact with SEIR-style predictions of city-specific hospitalizations.
 
-Click [HERE](https://rpubs.com/IrenevanWoerden/588295) for summary of Idaho infections compared across the country and globe.
-
 Code and datasets used in this work are available on [github](https://github.com/idaho-covid-response). 
 Presently [Eric Jankowski](mailto:ericjankowski@boisestate.edu) manages access to the Idaho Covid Response github team, though we anticipate making these repositories publicly available shortly.
 
 # Introduction
-Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 23, 168 countries/regions have reported at least one Covid-19 case; there have approximately 400,000 confirmed cases of Covid-19 and 16,000 deaths. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. 
+Covid-19 (Coronovirus) was declared a pandemic by the World Health Organization (WHO) on January 30, 2020. According to [John Hopkins University](https://coronavirus.jhu.edu/map.html) as of March 23, 168 countries/regions have reported at least one Covid-19 case; there have approximately 400,000 confirmed cases of Covid-19 and 16,000 deaths. On March 13, when Idaho reported its first case, a total of 2,179 cases in the US, and 145,193 cases globally had been reported. The size of the outbreak is much larger, with some estimates of undocumented cases making up 86% of the pandemic.
 
 On March 18, a call was sent out to identify a team of researchers to provide a report that would help predict the expected number of people in Idaho anticipated to contract Covid-19, how many of these would require hospitalization, and likely effects of different interventions. 
 
@@ -43,9 +41,9 @@ No guarantees of numerical accuracy are made for the predictions that follow.
 However, based on information available between March 20 and March 24, the following models and methods give a peek at what we might anticipate over the next year.
 
 ## Methods
-We compare two implementations of SEIR (**Figure 1**) models, network scaling theory, and empirical fits to international COVID-19 outbreak data to infer epidemic progression in Idaho.
-In the SEIR implementations evaluated here, errors in input parameters, population demographics, and initial conditions give rise to errors in preductions.
-For instance, if the Exposed population is actually larger than we input into the models, the actual peak in infections will occur sooner than predicted by the models.
+We compare two implementations of compartmental models (an SEIR model, **Figure 1**, and a more elaborate version based on a SEIR), network scaling theory, and empirical fits to international COVID-19 outbreak data to infer epidemic progression in Idaho.
+In the compartmental models evaluated here, errors in input parameters, population demographics, and initial conditions give rise to errors in preductions.
+For instance, if the exposed population (the E compartment of the model) is actually larger than we input into the models, the actual peak in infections will occur sooner than predicted by the models.
 While the exact values for each parameter is not presently known, the values used here are within ranges that are informed by recent publications and observations of COVID-19's international spread.
 We examine the sensitivity of the models to parameterizations within reported ranges (for example, death rates from Italy vary significantly from those reported from China, and recent reporting from the US indicates higher death rates for young individuals than in Italy), and we present predictions based on these ranges. 
 
@@ -55,25 +53,24 @@ We examine the sensitivity of the models to parameterizations within reported ra
 </figure>
 
 A simplistic approach of modeling Covid-19 starts with a number of people susceptible to an illness (in this case the Idaho population). 
-People who are susceptible can become exposed, those who are exposed become infectious, and those who are infectious either recover or die. 
+People who are susceptible can become exposed (infected but not yet infectious), those who are exposed become infectious, and those who are infectious either recover or die. 
 The rate at which people go from being susceptible to exposed to infected to recovery or death are major paramaters of the model, with changes in these paramters resulting in significant differences in predictions. 
 This model is called a Susceptible, Exposed, Infected, and Removed (SEIR) model and it has been successfully used for other, similar, epidemics [cites please]. 
-**Once recovered, people can become susceptible again - is this true for the models you are running?**.
+**Once recovered, people can become susceptible again - is this true for the models you are running?**. **BJR: For my model the answer is yes; I think the other model does not do this. Technically that puts my model in the SEIRS family but that won't mean anything except to other disease modelers...**
 
-The R0 is one of the parameters in the model, R0 is the average number of people an infected person will infect. 
+The R0 is one of the parameters in the model; R0, or the **basic reproduction number**, is the average number of people an infected person will infect at the beginning of an outbreak when the number of susceptible individuals is not limited. 
 An R0 of two means that, on average, each infected person will infect two other people.
 An R0 of one means that, on average, each infected person will infect one other person.
 An R0 of 0.5 means that, on average, for every two infected persons, only one person will become infected.
-The exponential growth observed with Covid-19 is due to the R0 being greater than one (~2.3)
-As social distancing increases, the average number of people who an infected person infects with Covid-19 reduces, resulting in a lower R0. Only when R0 is less than one will the spread of Covid-19 decrease.
+The exponential growth observed with Covid-19 is due to the R0 being greater than one (~2.3) **technically the "exponential growth" part of this statement isn't correct** 
+As social distancing increases, the average number of people who an infected person infects with Covid-19 reduces, resulting in a lower reproduction number. Only when the reproduction number is less than one will the spread of Covid-19 decrease.
 
-The R0 in Italy and China were approximately 2.3 initially. 
-The red line in Figure 2 shows the number of predicted Idaho infections based on an R0 of 2.3.
-The green lines in Figure 2 show the predicted number of infections in Idaho if social distancing measures are put in place, and the R0 decreases.
+The R0 in Italy and China were approximately 2.3, which corresponds
+*Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
 
 <figure style="float:center;width:70%" align="center">
-<img style="float:center" src="./fig/SIRModeldifferentR0.png">
-<figcaption><b>Figure 2 </b> Anticipated number of infections per 100,000 in Idaho based on different R0 values. </figcaption>
+<img style="float:center" src="./fig/SIRModeldifferentR0.PNG">
+<figcaption><b>Figure 3 </b> Anticipated number of infections in Idaho based on R0 values of 2.3 (red line) and x,x, and x (green lines). </figcaption>
 </figure>
 <br>
 
@@ -120,7 +117,6 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 </figure>
 <br>
 
-**If no social distancing is implemented**
 **Scenario 1.** Starting with 48 cases in Idaho
 - Time to peak:  roughly 150 days, August 16-22
 - At peak:  
@@ -145,28 +141,6 @@ The number of Covid-19 cases data for Idaho is shown in red, and the predicted n
 - Final outbreak size: 
 - Total deaths: 
 
-**If social distancing measures are implemented**
-**Scenario 1.** Starting with 48 cases in Idaho
-- Time to peak:  
-- At peak:  
-      - estimate 1: 
-- Final outbreak size:
-- Total deaths: 
-
-**Scenario 2.** Starting with 240 cases in Idaho
-- Time to peak:  
-- At peak:  
-      - estimate 1: 
-- Final outbreak size:
-- Total deaths: 
-
-**Scenario 3.** Starting with 480 cases in Idaho
-- Time to peak:  
-- At peak:  
-      - estimate 1: 
-- Final outbreak size:
-- Total deaths: 
-
 Figure 4 shows the anticipated number of infected, hospitalized, and deaths for Idaho if no mitigation is done. 
 This suggests that if no mitigation is done the the peak number of infections will be [date range].
 If there is no mitagation we anticpate that the ventilators wil be overwhelmed [date range], *resulting in an ever higher number of deaths - please let me know if your death rates take into account ventilators*.
@@ -174,13 +148,8 @@ If there is no mitagation we anticpate that the ventilators wil be overwhelmed [
 
 *Figure predicted Idaho infected hospitilations, deaths showing range in predictions - send me your day 1-365 predictions*
 
-<figure style="float:center;width:70%" align="center">
-<img style="float:center" src="./fig/epiSize2panel.png">
-<figcaption><b>Figure X:</b> Network modeling of COVID-19 predict that if 7.5% of the population has fewer than 5 "contacts", R0 will be reduced below 1 and there will be no epidemic. "Contacts" here refer to generic transmission connections, including interpersonal contacts and shared spaces (offices) whereby transmission may occur.</figcaption>
-</figure>
-<br>
 
-# Conclusions
+## Conclusions
 The limited number of tests being conducted, and the delay in testing results becoming available, is significantly hampering modeling efforts. It is difficult to accurately model Covid-19 in Idaho given the wide range of uncertainty in the model parameters. We ran a large number of models, 
 
 Several different approaches to modelling Covid-19 in Idaho were used.
@@ -200,7 +169,7 @@ If Idaho slows the spread by 50% (such as by shutting schools and isolate Covid-
 
 **With strong social distancing** our predictions suggest that ventilators will be overwhelmed if no social distancing effort are put in place.  If Idaho slows the spread by 60% (such as by shutting schools, isolating Covid-19 cases, and *xxxx*) then ventilators would be available in Idaho (not necessarily) for the majority of the time. 
 
-# Summary
+**Overall summary**
 The number of cases reported in Idaho likely has a delay, such that it may take several days for a person with Covid-19 who is tested to be officially confirmed and reported. This means that any intervention will also have a delay in reducing the number of cases in Idaho. If there is a week-long delay between testing and results, it will take one week before the results of any intervention can start to be seen. As the current growth of Covid-19 is exponential, a one-week delay (for instance) would result in the actual numbers in Idaho being much, much, higher than what is reported. Given this exponential growth we suggest a period of social distancing while the extent of Covid-19 in Idaho is determined.
 
 Not testing - This is a significant problem as if the number of people who are infected is unknown, it becomes very difficult to predict how many people will be infected in the future.
@@ -210,9 +179,25 @@ After this period of strong social distancing a period of relaxed social distanc
 
 If people who are likely immune (based on prior exposure or serology) are not infections, there is no reason for these people to not  get back to normal economic activity. PCR tests and serology (once available) will indicate how many people are likely immune from this current Covid-19 virus. 
 
-## Additional information 
+The models will be more accurate once more testing is implemented, or when we death data starts to be available.
 
-* [Team](team)
+The first cases of Covid-19 in Idaho were observed after other states were infected. By tracking the number of cases reported by state we may be able to see how well different intervention strategies have worked elsewhere in the US.
+
+Large-scale testing will help create more accurate future predictions researchers. While death data (once available) will help with improving the predictions, relying on testing is preferrable for obvious reasons. 
+
+Providing more detailed information on who is infected by Covid-19 (e.g., age, gender, comorbidities) will help future predictions be more accurate.
+
+## Additional information 
+For more information specific to Idaho, see the following websites:
+
+A visual summary of trends over time in Idaho: https://rpubs.com/IrenevanWoerden/588295 
+
+[A dashboard with multiple parameters](https://benridenhour.shinyapps.io/COVID-19_ID/)
+
+[A dashboard with multiple parameters that shows potential effect on ventilator and ICU capacity by public health district](https://public.tableau.com/profile/jeff.lingwall7921#!/vizhome/Statewide_SEIR_Projections_ver1/Dashboard12?publish=yes)
+
+* [Team][idaho]
 * [Sources](sources)
 
-[//]: # (Internal links below, but perhaps avoid using?)
+[//]: # (Links below)
+[idaho]: team
