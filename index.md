@@ -72,8 +72,8 @@ The red line in Figure 2 shows the number of predicted Idaho infections based on
 The green lines in Figure 2 show the predicted number of infections in Idaho if social distancing measures are put in place, and the R0 decreases.
 
 <figure style="float:center;width:70%" align="center">
-<img style="float:center" src="./fig/SIRModeldifferentR0.PNG">
-<figcaption><b>Figure 2 </b> Anticipated number of infections in Idaho based on R0 values of 2.3 (red line) and x,x, and x (green lines). </figcaption>
+<img style="float:center" src="./fig/SIRModeldifferentR0.png">
+<figcaption><b>Figure 2 </b> Anticipated number of infections per 100,000 in Idaho based on different R0 values. </figcaption>
 </figure>
 <br>
 
@@ -174,7 +174,7 @@ If there is no mitagation we anticpate that the ventilators wil be overwhelmed [
 
 *Figure predicted Idaho infected hospitilations, deaths showing range in predictions - send me your day 1-365 predictions*
 
-<figure style="float:center;width:100%" align="center">
+<figure style="float:center;width:70%" align="center">
 <img style="float:center" src="./fig/epiSize2panel.png">
 <figcaption><b>Figure X:</b> Network modeling of COVID-19 predict that if 7.5% of the population has fewer than 5 "contacts", R0 will be reduced below 1 and there will be no epidemic. "Contacts" here refer to generic transmission connections, including interpersonal contacts and shared spaces (offices) whereby transmission may occur.</figcaption>
 </figure>
