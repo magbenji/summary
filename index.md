@@ -65,11 +65,12 @@ An R0 of 0.5 means that, on average, for every two infected persons, only one pe
 The exponential growth observed with Covid-19 is due to the R0 being greater than one (~2.3)
 As social distancing increases, the average number of people who an infected person infects with Covid-19 reduces, resulting in a lower R0. Only when R0 is less than one will the spread of Covid-19 decrease.
 
+The R0 in Italy and China were approximately 2.3, which corresponds
 *Figure 2 - image of Wuhan vs Italy infectious rates with Idaho data*
 
 <figure style="float:center;width:70%" align="center">
 <img style="float:center" src="./fig/SIRModeldifferentR0.PNG">
-<figcaption><b>Figure 3 </b> Anticipated number of infections in Idaho based on R0 values of x,x,x, and x </figcaption>
+<figcaption><b>Figure 3 </b> Anticipated number of infections in Idaho based on R0 values of 2.3 (red line) and x,x, and x (green lines). </figcaption>
 </figure>
 <br>
 
